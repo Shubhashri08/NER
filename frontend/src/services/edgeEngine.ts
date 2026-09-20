@@ -1,5 +1,3 @@
-import { MOCK_DATA } from '../data/mockData';
-
 // Standalone Edge Operational State Store (matching Python backend store logic)
 class EdgeOperationalState {
   incidents: any[];
@@ -139,6 +137,44 @@ class EdgeOperationalState {
         progress: 85,
         risk_score: 15,
         replanning_status: "NONE"
+      },
+      {
+        id: "MIS003",
+        title: "Water Purification Unit Convoy",
+        status: "APPROVED",
+        priority: "HIGH",
+        request_id: "SR-003",
+        warehouse_id: "WH-GTK-06",
+        vehicle_id: "TRK-4X4-02",
+        route_id: "RT-NH10-C",
+        origin: { name: "Gangtok High-Altitude Depot", lat: 27.3389, lng: 88.6065 },
+        destination: { name: "Mangan Alpine Base", lat: 27.5050, lng: 88.5286 },
+        resources: [{ resource_type: "Drinking Water", quantity: 1000, unit: "Liters" }],
+        vehicle: { id: "TRK-4X4-02", type: "Ashok Leyland 4x4 Offroad", capacity: 6000 },
+        route: { id: "RT-NH10-C", name: "NH-10 Mountain Pass", distance_km: 65, eta_min: 120, risk_score: 45 },
+        eta: "3 hrs 30 mins",
+        progress: 20,
+        risk_score: 45,
+        replanning_status: "NONE"
+      },
+      {
+        id: "MIS004",
+        title: "High-Altitude Fuel Resupply",
+        status: "IN_TRANSIT",
+        priority: "HIGH",
+        request_id: "SR-004",
+        warehouse_id: "WH-ITN-04",
+        vehicle_id: "TRK-4X4-03",
+        route_id: "RT-NH229",
+        origin: { name: "Itanagar Foothills Reserve", lat: 27.0844, lng: 93.6053 },
+        destination: { name: "Yupia Sub-Divisional Base", lat: 27.1500, lng: 93.6200 },
+        resources: [{ resource_type: "Diesel Fuel", quantity: 2000, unit: "Liters" }],
+        vehicle: { id: "TRK-4X4-03", type: "Mahindra Scorpio 4WD Tactical", capacity: 2500 },
+        route: { id: "RT-NH229", name: "Itanagar-Yupia Arterial", distance_km: 42, eta_min: 55, risk_score: 22 },
+        eta: "45 mins",
+        progress: 75,
+        risk_score: 22,
+        replanning_status: "NONE"
       }
     ];
 
@@ -166,9 +202,11 @@ class EdgeOperationalState {
     ];
 
     this.shelters = [
-      { id: "SHL-001", name: "Haflong District Sports Complex", capacity: 1200, occupancy: 850, remaining_capacity: 350, safety_score: 92, accessibility_score: 85, readiness: "READY", services: ["Medical", "Food", "Sanitation"], coordinates: { lat: 25.18, lng: 93.02 } },
-      { id: "SHL-002", name: "Silchar Community High School", capacity: 2000, occupancy: 1820, remaining_capacity: 180, safety_score: 88, accessibility_score: 90, readiness: "NEAR_CAPACITY", services: ["Food", "Clean Water"], coordinates: { lat: 24.83, lng: 92.79 } },
-      { id: "SHL-003", name: "Mangan Relief Camp", capacity: 500, occupancy: 420, remaining_capacity: 80, safety_score: 80, accessibility_score: 65, readiness: "NEAR_CAPACITY", services: ["Basic Shelter", "First Aid"], coordinates: { lat: 27.50, lng: 88.52 } }
+      { id: "SHL-001", name: "Haflong District Sports Complex", capacity: 1200, occupancy: 850, remaining_capacity: 350, safety_score: 92, accessibility_score: 85, readiness: "READY", status: "OPERATIONAL", services: ["Medical", "Food", "Sanitation"], coordinates: { lat: 25.18, lng: 93.02 } },
+      { id: "SHL-002", name: "Silchar Community High School", capacity: 2000, occupancy: 1820, remaining_capacity: 180, safety_score: 88, accessibility_score: 90, readiness: "NEAR_CAPACITY", status: "OPERATIONAL", services: ["Food", "Clean Water"], coordinates: { lat: 24.83, lng: 92.79 } },
+      { id: "SHL-003", name: "Mangan Relief Camp", capacity: 500, occupancy: 420, remaining_capacity: 80, safety_score: 80, accessibility_score: 65, readiness: "NEAR_CAPACITY", status: "OPERATIONAL", services: ["Basic Shelter", "First Aid"], coordinates: { lat: 27.50, lng: 88.52 } },
+      { id: "SHL-004", name: "Shillong Indoor Stadium Relief Hub", capacity: 1500, occupancy: 920, remaining_capacity: 580, safety_score: 95, accessibility_score: 92, readiness: "READY", status: "OPERATIONAL", services: ["Medical ICU", "Hot Meals", "Sanitation"], coordinates: { lat: 25.57, lng: 91.89 } },
+      { id: "SHL-005", name: "Itanagar Community Center", capacity: 800, occupancy: 340, remaining_capacity: 460, safety_score: 90, accessibility_score: 88, readiness: "READY", status: "OPERATIONAL", services: ["Clean Water", "Basic Shelter"], coordinates: { lat: 27.08, lng: 93.60 } }
     ];
 
     this.fieldReports = [];

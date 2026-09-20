@@ -4,7 +4,7 @@
   "private": true,
   "description": "NER Disaster Logistics & Response Intelligence Platform - Unified Cloudflare Worker",
   "scripts": {
-    "build": "pip install -r requirements.txt -t .python_packages 2>/dev/null || true && npm --prefix frontend install && npm --prefix frontend run build",
+    "build": "npm --prefix frontend install && npm --prefix frontend run build",
     "deploy": "npm run build && wrangler deploy"
   }
 }
