@@ -1,0 +1,51 @@
+{
+  "data_tier": "PARTIALLY_VERIFIED",
+  "source": "India Meteorological Department (IMD) Regional Meteorological Centre, Guwahati (NER AWS Network)",
+  "synoptic_situation": "Active South-West Monsoon trough coupled with cyclonic circulation over Bay of Bengal triggering severe orographic downpours, flash floods, and active slope instability across Assam, Meghalaya, Sikkim, and Arunachal Pradesh",
+  "stations": [
+    {
+      "station_id": "AWS-NER-JTG-01",
+      "name": "Jatinga Hill AWS (Dima Hasao)",
+      "state": "Assam",
+      "coordinates": { "lat": 25.1245, "lng": 93.1512 },
+      "rainfall_last_1h_mm": 32.4,
+      "rainfall_cumulative_24h_mm": 186.2,
+      "temperature_c": 21.2,
+      "status": "EXTREMELY_HEAVY_RAIN",
+      "landslide_trigger_warning": true
+    },
+    {
+      "station_id": "AWS-NER-MWS-02",
+      "name": "Mawsynram Station (East Khasi Hills)",
+      "state": "Meghalaya",
+      "coordinates": { "lat": 25.3167, "lng": 91.5833 },
+      "rainfall_last_1h_mm": 48.0,
+      "rainfall_cumulative_24h_mm": 312.5,
+      "temperature_c": 18.0,
+      "status": "EXTREMELY_HEAVY_RAIN",
+      "landslide_trigger_warning": true
+    },
+    {
+      "station_id": "AWS-NER-CHG-03",
+      "name": "Chungthang Hydrological Station (North Sikkim)",
+      "state": "Sikkim",
+      "coordinates": { "lat": 27.6033, "lng": 88.6472 },
+      "rainfall_last_1h_mm": 21.5,
+      "rainfall_cumulative_24h_mm": 128.0,
+      "temperature_c": 11.8,
+      "status": "VERY_HEAVY_RAIN",
+      "landslide_trigger_warning": true
+    },
+    {
+      "station_id": "AWS-NER-DAP-04",
+      "name": "Daporijo River Station (Upper Subansiri)",
+      "state": "Arunachal Pradesh",
+      "coordinates": { "lat": 27.9833, "lng": 94.1333 },
+      "rainfall_last_1h_mm": 16.0,
+      "rainfall_cumulative_24h_mm": 92.4,
+      "temperature_c": 19.5,
+      "status": "HEAVY_RAIN",
+      "landslide_trigger_warning": false
+    }
+  ]
+}

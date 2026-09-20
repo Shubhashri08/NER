@@ -1,0 +1,5681 @@
+{
+  "users": [],
+  "regions": [
+    {
+      "id": "AS",
+      "name": "Assam",
+      "district_count": 35,
+      "boundary": "GeoJSON_Polygon_Assam",
+      "active_incidents": 12,
+      "critical_missions": 4
+    },
+    {
+      "id": "AR",
+      "name": "Arunachal Pradesh",
+      "district_count": 26,
+      "boundary": "GeoJSON_Polygon_Arunachal",
+      "active_incidents": 5,
+      "critical_missions": 2
+    },
+    {
+      "id": "MN",
+      "name": "Manipur",
+      "district_count": 16,
+      "boundary": "GeoJSON_Polygon_Manipur",
+      "active_incidents": 4,
+      "critical_missions": 1
+    },
+    {
+      "id": "ML",
+      "name": "Meghalaya",
+      "district_count": 12,
+      "boundary": "GeoJSON_Polygon_Meghalaya",
+      "active_incidents": 3,
+      "critical_missions": 2
+    },
+    {
+      "id": "MZ",
+      "name": "Mizoram",
+      "district_count": 11,
+      "boundary": "GeoJSON_Polygon_Mizoram",
+      "active_incidents": 2,
+      "critical_missions": 1
+    },
+    {
+      "id": "NL",
+      "name": "Nagaland",
+      "district_count": 16,
+      "boundary": "GeoJSON_Polygon_Nagaland",
+      "active_incidents": 3,
+      "critical_missions": 1
+    },
+    {
+      "id": "SK",
+      "name": "Sikkim",
+      "district_count": 6,
+      "boundary": "GeoJSON_Polygon_Sikkim",
+      "active_incidents": 6,
+      "critical_missions": 3
+    },
+    {
+      "id": "TR",
+      "name": "Tripura",
+      "district_count": 8,
+      "boundary": "GeoJSON_Polygon_Tripura",
+      "active_incidents": 2,
+      "critical_missions": 1
+    }
+  ],
+  "districts": [
+    {
+      "id": "D01",
+      "name": "Dima Hasao",
+      "state_id": "AS",
+      "population": 214102,
+      "hq": "Haflong"
+    },
+    {
+      "id": "D02",
+      "name": "Cachar",
+      "state_id": "AS",
+      "population": 1736617,
+      "hq": "Silchar"
+    },
+    {
+      "id": "D03",
+      "name": "North Sikkim",
+      "state_id": "SK",
+      "population": 43709,
+      "hq": "Mangan"
+    },
+    {
+      "id": "D04",
+      "name": "Papum Pare",
+      "state_id": "AR",
+      "population": 176573,
+      "hq": "Yupia"
+    },
+    {
+      "id": "D05",
+      "name": "East Khasi Hills",
+      "state_id": "ML",
+      "population": 825922,
+      "hq": "Shillong"
+    }
+  ],
+  "habitations": [
+    {
+      "id": "HAB001",
+      "name": "Village A (Harangajao)",
+      "state_id": "AS",
+      "state": "Assam",
+      "district_id": "D01",
+      "district": "Dima Hasao",
+      "coordinates": {
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "population": 2350,
+      "households": 480,
+      "children": 360,
+      "elderly": 190,
+      "persons_with_disabilities": 45,
+      "vulnerable_population": 595,
+      "risk_level": "HIGH",
+      "access": "PARTIAL",
+      "critical_needs": [
+        "WATER",
+        "MEDICINE"
+      ],
+      "active_incidents": [
+        "INC001"
+      ],
+      "vulnerability_score": 78,
+      "vulnerability_factors": {
+        "population": 80,
+        "accessibility": 90,
+        "hazard": 85,
+        "critical_facility_dependency": 60
+      }
+    },
+    {
+      "id": "HAB002",
+      "name": "Jatinga Ridge Valley",
+      "state_id": "AS",
+      "state": "Assam",
+      "district_id": "D01",
+      "district": "Dima Hasao",
+      "coordinates": {
+        "lat": 25.12,
+        "lng": 93.04
+      },
+      "population": 1820,
+      "households": 340,
+      "children": 250,
+      "elderly": 140,
+      "persons_with_disabilities": 30,
+      "vulnerable_population": 420,
+      "risk_level": "CRITICAL",
+      "access": "BLOCKED",
+      "critical_needs": [
+        "FOOD",
+        "WATER",
+        "MEDICINE"
+      ],
+      "active_incidents": [
+        "INC001"
+      ],
+      "vulnerability_score": 88,
+      "vulnerability_factors": {
+        "population": 75,
+        "accessibility": 95,
+        "hazard": 92,
+        "critical_facility_dependency": 80
+      }
+    },
+    {
+      "id": "LOC-NER-ASM-001",
+      "name": "Haflong Urban HQ",
+      "state_id": "AS",
+      "state": "Assam",
+      "district_id": "D01",
+      "district": "Dima Hasao",
+      "coordinates": {
+        "lat": 25.1832,
+        "lng": 93.0254
+      },
+      "population": 3680,
+      "households": 790,
+      "children": 440,
+      "elderly": 310,
+      "persons_with_disabilities": 50,
+      "vulnerable_population": 3164,
+      "risk_level": "CRITICAL",
+      "access": "BLOCKED",
+      "critical_needs": [
+        "WATER",
+        "MEDICINE"
+      ],
+      "active_incidents": [],
+      "vulnerability_score": 86,
+      "vulnerability_factors": {
+        "population": 80,
+        "accessibility": 85,
+        "hazard": 75,
+        "critical_facility_dependency": 65
+      }
+    },
+    {
+      "id": "LOC-NER-ASM-004",
+      "name": "Silchar Transshipment Hub",
+      "state_id": "AS",
+      "state": "Assam",
+      "district_id": "D02",
+      "district": "Cachar",
+      "coordinates": {
+        "lat": 24.8333,
+        "lng": 92.7926
+      },
+      "population": 172830,
+      "households": 38400,
+      "children": 15800,
+      "elderly": 14200,
+      "persons_with_disabilities": 50,
+      "vulnerable_population": 48392,
+      "risk_level": "HIGH",
+      "access": "OPEN",
+      "critical_needs": [
+        "WATER",
+        "MEDICINE"
+      ],
+      "active_incidents": [],
+      "vulnerability_score": 28,
+      "vulnerability_factors": {
+        "population": 80,
+        "accessibility": 85,
+        "hazard": 75,
+        "critical_facility_dependency": 65
+      }
+    },
+    {
+      "id": "LOC-NER-SKM-001",
+      "name": "Mangan Alpine Base",
+      "state_id": "SK",
+      "state": "Sikkim",
+      "district_id": "D03",
+      "district": "North Sikkim",
+      "coordinates": {
+        "lat": 27.505,
+        "lng": 88.5286
+      },
+      "population": 4644,
+      "households": 1050,
+      "children": 490,
+      "elderly": 380,
+      "persons_with_disabilities": 50,
+      "vulnerable_population": 2879,
+      "risk_level": "HIGH",
+      "access": "OPEN",
+      "critical_needs": [
+        "WATER",
+        "MEDICINE"
+      ],
+      "active_incidents": [],
+      "vulnerability_score": 62,
+      "vulnerability_factors": {
+        "population": 80,
+        "accessibility": 85,
+        "hazard": 75,
+        "critical_facility_dependency": 65
+      }
+    },
+    {
+      "id": "LOC-NER-SKM-002",
+      "name": "Chungthang Junction",
+      "state_id": "SK",
+      "state": "Sikkim",
+      "district_id": "D03",
+      "district": "North Sikkim",
+      "coordinates": {
+        "lat": 27.6039,
+        "lng": 88.6472
+      },
+      "population": 3950,
+      "households": 820,
+      "children": 380,
+      "elderly": 290,
+      "persons_with_disabilities": 50,
+      "vulnerable_population": 3594,
+      "risk_level": "CRITICAL",
+      "access": "BLOCKED",
+      "critical_needs": [
+        "WATER",
+        "MEDICINE"
+      ],
+      "active_incidents": [],
+      "vulnerability_score": 91,
+      "vulnerability_factors": {
+        "population": 80,
+        "accessibility": 85,
+        "hazard": 75,
+        "critical_facility_dependency": 65
+      }
+    },
+    {
+      "id": "LOC-NER-SKM-003",
+      "name": "Lachen Forward Valley",
+      "state_id": "SK",
+      "state": "Sikkim",
+      "district_id": "D03",
+      "district": "North Sikkim",
+      "coordinates": {
+        "lat": 27.7289,
+        "lng": 88.5583
+      },
+      "population": 1325,
+      "households": 310,
+      "children": 120,
+      "elderly": 140,
+      "persons_with_disabilities": 50,
+      "vulnerable_population": 1166,
+      "risk_level": "CRITICAL",
+      "access": "BLOCKED",
+      "critical_needs": [
+        "WATER",
+        "MEDICINE"
+      ],
+      "active_incidents": [],
+      "vulnerability_score": 88,
+      "vulnerability_factors": {
+        "population": 80,
+        "accessibility": 85,
+        "hazard": 75,
+        "critical_facility_dependency": 65
+      }
+    },
+    {
+      "id": "LOC-NER-MEG-001",
+      "name": "Shillong Civil Defense Base",
+      "state_id": "ML",
+      "state": "Meghalaya",
+      "district_id": "D05",
+      "district": "East Khasi Hills",
+      "coordinates": {
+        "lat": 25.5689,
+        "lng": 91.8833
+      },
+      "population": 143229,
+      "households": 31200,
+      "children": 14500,
+      "elderly": 11800,
+      "persons_with_disabilities": 50,
+      "vulnerable_population": 35807,
+      "risk_level": "HIGH",
+      "access": "OPEN",
+      "critical_needs": [
+        "WATER",
+        "MEDICINE"
+      ],
+      "active_incidents": [],
+      "vulnerability_score": 25,
+      "vulnerability_factors": {
+        "population": 80,
+        "accessibility": 85,
+        "hazard": 75,
+        "critical_facility_dependency": 65
+      }
+    },
+    {
+      "id": "LOC-NER-MEG-002",
+      "name": "Sohra (Cherrapunji)",
+      "state_id": "ML",
+      "state": "Meghalaya",
+      "district_id": "D05",
+      "district": "East Khasi Hills",
+      "coordinates": {
+        "lat": 25.28,
+        "lng": 91.73
+      },
+      "population": 11772,
+      "households": 2480,
+      "children": 1420,
+      "elderly": 980,
+      "persons_with_disabilities": 50,
+      "vulnerable_population": 8711,
+      "risk_level": "HIGH",
+      "access": "OPEN",
+      "critical_needs": [
+        "WATER",
+        "MEDICINE"
+      ],
+      "active_incidents": [],
+      "vulnerability_score": 74,
+      "vulnerability_factors": {
+        "population": 80,
+        "accessibility": 85,
+        "hazard": 75,
+        "critical_facility_dependency": 65
+      }
+    },
+    {
+      "id": "LOC-NER-ARU-001",
+      "name": "Itanagar Base Depot",
+      "state_id": "AR",
+      "state": "Arunachal Pradesh",
+      "district_id": "D04",
+      "district": "Papum Pare",
+      "coordinates": {
+        "lat": 27.0844,
+        "lng": 93.6166
+      },
+      "population": 59490,
+      "households": 12800,
+      "children": 6200,
+      "elderly": 4100,
+      "persons_with_disabilities": 50,
+      "vulnerable_population": 13087,
+      "risk_level": "HIGH",
+      "access": "OPEN",
+      "critical_needs": [
+        "WATER",
+        "MEDICINE"
+      ],
+      "active_incidents": [],
+      "vulnerability_score": 22,
+      "vulnerability_factors": {
+        "population": 80,
+        "accessibility": 85,
+        "hazard": 75,
+        "critical_facility_dependency": 65
+      }
+    },
+    {
+      "id": "LOC-NER-ARU-002",
+      "name": "Sagalee Outpost",
+      "state_id": "AR",
+      "state": "Arunachal Pradesh",
+      "district_id": "D04",
+      "district": "Papum Pare",
+      "coordinates": {
+        "lat": 27.2,
+        "lng": 93.75
+      },
+      "population": 2185,
+      "households": 460,
+      "children": 290,
+      "elderly": 190,
+      "persons_with_disabilities": 50,
+      "vulnerable_population": 1420,
+      "risk_level": "HIGH",
+      "access": "OPEN",
+      "critical_needs": [
+        "WATER",
+        "MEDICINE"
+      ],
+      "active_incidents": [],
+      "vulnerability_score": 65,
+      "vulnerability_factors": {
+        "population": 80,
+        "accessibility": 85,
+        "hazard": 75,
+        "critical_facility_dependency": 65
+      }
+    },
+    {
+      "id": "LOC-NER-MNP-001",
+      "name": "Imphal Central Supply Depot",
+      "state_id": "MN",
+      "state": "Manipur",
+      "district_id": "D01",
+      "district": "Imphal West",
+      "coordinates": {
+        "lat": 24.817,
+        "lng": 93.9368
+      },
+      "population": 268243,
+      "households": 56200,
+      "children": 28400,
+      "elderly": 24500,
+      "persons_with_disabilities": 50,
+      "vulnerable_population": 85837,
+      "risk_level": "HIGH",
+      "access": "OPEN",
+      "critical_needs": [
+        "WATER",
+        "MEDICINE"
+      ],
+      "active_incidents": [],
+      "vulnerability_score": 32,
+      "vulnerability_factors": {
+        "population": 80,
+        "accessibility": 85,
+        "hazard": 75,
+        "critical_facility_dependency": 65
+      }
+    },
+    {
+      "id": "LOC-NER-MNP-002",
+      "name": "Noney (Tupul Slide Zone)",
+      "state_id": "MN",
+      "state": "Manipur",
+      "district_id": "D01",
+      "district": "Noney",
+      "coordinates": {
+        "lat": 24.896,
+        "lng": 93.498
+      },
+      "population": 3850,
+      "households": 720,
+      "children": 420,
+      "elderly": 310,
+      "persons_with_disabilities": 50,
+      "vulnerable_population": 3426,
+      "risk_level": "CRITICAL",
+      "access": "BLOCKED",
+      "critical_needs": [
+        "WATER",
+        "MEDICINE"
+      ],
+      "active_incidents": [],
+      "vulnerability_score": 89,
+      "vulnerability_factors": {
+        "population": 80,
+        "accessibility": 85,
+        "hazard": 75,
+        "critical_facility_dependency": 65
+      }
+    },
+    {
+      "id": "LOC-NER-MIZ-001",
+      "name": "Aizawl Strategic Staging Depot",
+      "state_id": "MZ",
+      "state": "Mizoram",
+      "district_id": "D01",
+      "district": "Aizawl",
+      "coordinates": {
+        "lat": 23.7271,
+        "lng": 92.7176
+      },
+      "population": 293416,
+      "households": 61500,
+      "children": 32100,
+      "elderly": 26400,
+      "persons_with_disabilities": 50,
+      "vulnerable_population": 111498,
+      "risk_level": "HIGH",
+      "access": "OPEN",
+      "critical_needs": [
+        "WATER",
+        "MEDICINE"
+      ],
+      "active_incidents": [],
+      "vulnerability_score": 38,
+      "vulnerability_factors": {
+        "population": 80,
+        "accessibility": 85,
+        "hazard": 75,
+        "critical_facility_dependency": 65
+      }
+    },
+    {
+      "id": "LOC-NER-MIZ-002",
+      "name": "Kolasib Arterial Lifeline Pass",
+      "state_id": "MZ",
+      "state": "Mizoram",
+      "district_id": "D01",
+      "district": "Kolasib",
+      "coordinates": {
+        "lat": 24.218,
+        "lng": 92.678
+      },
+      "population": 24272,
+      "households": 5100,
+      "children": 2800,
+      "elderly": 1950,
+      "persons_with_disabilities": 50,
+      "vulnerable_population": 18932,
+      "risk_level": "HIGH",
+      "access": "OPEN",
+      "critical_needs": [
+        "WATER",
+        "MEDICINE"
+      ],
+      "active_incidents": [],
+      "vulnerability_score": 78,
+      "vulnerability_factors": {
+        "population": 80,
+        "accessibility": 85,
+        "hazard": 75,
+        "critical_facility_dependency": 65
+      }
+    },
+    {
+      "id": "LOC-NER-NLD-001",
+      "name": "Kohima Civil Protection Depot",
+      "state_id": "NL",
+      "state": "Nagaland",
+      "district_id": "D01",
+      "district": "Kohima",
+      "coordinates": {
+        "lat": 25.6701,
+        "lng": 94.1086
+      },
+      "population": 99039,
+      "households": 21300,
+      "children": 10800,
+      "elderly": 8400,
+      "persons_with_disabilities": 50,
+      "vulnerable_population": 35654,
+      "risk_level": "HIGH",
+      "access": "OPEN",
+      "critical_needs": [
+        "WATER",
+        "MEDICINE"
+      ],
+      "active_incidents": [],
+      "vulnerability_score": 36,
+      "vulnerability_factors": {
+        "population": 80,
+        "accessibility": 85,
+        "hazard": 75,
+        "critical_facility_dependency": 65
+      }
+    },
+    {
+      "id": "LOC-NER-NLD-002",
+      "name": "Phesama Sinking Zone",
+      "state_id": "NL",
+      "state": "Nagaland",
+      "district_id": "D01",
+      "district": "Kohima",
+      "coordinates": {
+        "lat": 25.75,
+        "lng": 94.04
+      },
+      "population": 3215,
+      "households": 680,
+      "children": 390,
+      "elderly": 280,
+      "persons_with_disabilities": 50,
+      "vulnerable_population": 2732,
+      "risk_level": "CRITICAL",
+      "access": "BLOCKED",
+      "critical_needs": [
+        "WATER",
+        "MEDICINE"
+      ],
+      "active_incidents": [],
+      "vulnerability_score": 85,
+      "vulnerability_factors": {
+        "population": 80,
+        "accessibility": 85,
+        "hazard": 75,
+        "critical_facility_dependency": 65
+      }
+    },
+    {
+      "id": "LOC-NER-TRP-001",
+      "name": "Agartala State Reserve Base",
+      "state_id": "TR",
+      "state": "Tripura",
+      "district_id": "D01",
+      "district": "West Tripura",
+      "coordinates": {
+        "lat": 23.8315,
+        "lng": 91.2868
+      },
+      "population": 400004,
+      "households": 92000,
+      "children": 41000,
+      "elderly": 36000,
+      "persons_with_disabilities": 50,
+      "vulnerable_population": 96000,
+      "risk_level": "HIGH",
+      "access": "OPEN",
+      "critical_needs": [
+        "WATER",
+        "MEDICINE"
+      ],
+      "active_incidents": [],
+      "vulnerability_score": 24,
+      "vulnerability_factors": {
+        "population": 80,
+        "accessibility": 85,
+        "hazard": 75,
+        "critical_facility_dependency": 65
+      }
+    },
+    {
+      "id": "LOC-NER-TRP-002",
+      "name": "Dharmanagar Northern Railhead",
+      "state_id": "TR",
+      "state": "Tripura",
+      "district_id": "D01",
+      "district": "North Tripura",
+      "coordinates": {
+        "lat": 24.168,
+        "lng": 92.016
+      },
+      "population": 45881,
+      "households": 10400,
+      "children": 4800,
+      "elderly": 3900,
+      "persons_with_disabilities": 50,
+      "vulnerable_population": 30281,
+      "risk_level": "HIGH",
+      "access": "OPEN",
+      "critical_needs": [
+        "WATER",
+        "MEDICINE"
+      ],
+      "active_incidents": [],
+      "vulnerability_score": 66,
+      "vulnerability_factors": {
+        "population": 80,
+        "accessibility": 85,
+        "hazard": 75,
+        "critical_facility_dependency": 65
+      }
+    }
+  ],
+  "incidents": [
+    {
+      "id": "INC-001",
+      "incident_id": "INC-001",
+      "title": "Landslide on NH-27",
+      "type": "LANDSLIDE",
+      "severity": "CRITICAL",
+      "status": "ACTIVE",
+      "location_name": "Dima Hasao, Assam",
+      "time_ago": "2 hours ago",
+      "impact_status": "Road Blocked",
+      "description": "Massive hill subsidence and 200m road cut on NH-27 between Jatinga and Harangajao.",
+      "location": {
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "coordinates": {
+        "latitude": 25.4,
+        "longitude": 93.2
+      },
+      "verified": true,
+      "verified_by": "USR002",
+      "verified_at": "2026-09-16T06:45:00Z",
+      "created_at": "2026-09-16T06:30:00Z",
+      "affected_roads": [
+        "RD10",
+        "RD11"
+      ],
+      "affected_habitations": [
+        "HAB001",
+        "HAB002"
+      ],
+      "affected_facilities": [
+        "FAC04"
+      ],
+      "affected_missions": [
+        "MS-017",
+        "MIS001"
+      ],
+      "reports": [
+        "FR-004"
+      ],
+      "critical_locations": [
+        "HAB001"
+      ],
+      "affected_population": 5300
+    },
+    {
+      "id": "INC-002",
+      "incident_id": "INC-002",
+      "title": "Flash Flooding",
+      "type": "FLOOD",
+      "severity": "HIGH",
+      "status": "ACTIVE",
+      "location_name": "Sonitpur, Assam",
+      "time_ago": "4 hours ago",
+      "impact_status": "Multiple Villages",
+      "description": "Brahmaputra tributary overflow inundated low-lying settlements across 8 panchayats.",
+      "location": {
+        "lat": 26.65,
+        "lng": 92.8
+      },
+      "coordinates": {
+        "latitude": 26.65,
+        "longitude": 92.8
+      },
+      "verified": true,
+      "verified_by": "USR002",
+      "verified_at": "2026-09-16T05:00:00Z",
+      "created_at": "2026-09-16T04:30:00Z",
+      "affected_roads": [
+        "RD22"
+      ],
+      "affected_habitations": [
+        "HAB003"
+      ],
+      "affected_facilities": [
+        "FAC02"
+      ],
+      "affected_missions": [],
+      "reports": [
+        "FR-002"
+      ],
+      "critical_locations": [
+        "HAB003"
+      ],
+      "affected_population": 8400
+    },
+    {
+      "id": "INC-003",
+      "incident_id": "INC-003",
+      "title": "Bridge Damage",
+      "type": "BRIDGE_DAMAGE",
+      "severity": "HIGH",
+      "status": "ACTIVE",
+      "location_name": "West Garo Hills, Meghalaya",
+      "time_ago": "6 hours ago",
+      "impact_status": "Limited Access",
+      "description": "Pillar scour and structural fracture on Tura-Rongram connecting bridge.",
+      "location": {
+        "lat": 25.52,
+        "lng": 90.22
+      },
+      "coordinates": {
+        "latitude": 25.52,
+        "longitude": 90.22
+      },
+      "verified": true,
+      "verified_by": "USR002",
+      "verified_at": "2026-09-16T03:00:00Z",
+      "created_at": "2026-09-16T02:30:00Z",
+      "affected_roads": [
+        "RD14"
+      ],
+      "affected_habitations": [
+        "HAB004"
+      ],
+      "affected_facilities": [],
+      "affected_missions": [
+        "MS-044"
+      ],
+      "reports": [
+        "FR-003"
+      ],
+      "critical_locations": [
+        "HAB004"
+      ],
+      "affected_population": 3200
+    },
+    {
+      "id": "INC-004",
+      "incident_id": "INC-004",
+      "title": "Heavy Rainfall",
+      "type": "HEAVY_RAINFALL",
+      "severity": "MEDIUM",
+      "status": "ACTIVE",
+      "location_name": "Aizawl, Mizoram",
+      "time_ago": "8 hours ago",
+      "impact_status": "High Risk",
+      "description": "Continuous torrential downpour (140mm/24h) threatening slope stability along ridges.",
+      "location": {
+        "lat": 23.73,
+        "lng": 92.72
+      },
+      "coordinates": {
+        "latitude": 23.73,
+        "longitude": 92.72
+      },
+      "verified": true,
+      "verified_by": "USR002",
+      "verified_at": "2026-09-16T01:00:00Z",
+      "created_at": "2026-09-16T00:30:00Z",
+      "affected_roads": [
+        "RD08"
+      ],
+      "affected_habitations": [],
+      "affected_facilities": [],
+      "affected_missions": [
+        "MS-042"
+      ],
+      "reports": [],
+      "critical_locations": [],
+      "affected_population": 2100
+    },
+    {
+      "id": "INC-005",
+      "incident_id": "INC-005",
+      "title": "River Overflow",
+      "type": "RIVER_OVERFLOW",
+      "severity": "LOW",
+      "status": "ACTIVE",
+      "location_name": "Itanagar, Arunachal Pradesh",
+      "time_ago": "11 hours ago",
+      "impact_status": "Monitoring",
+      "description": "Dikrong river water level reached warning stage. Embankment patrol activated.",
+      "location": {
+        "lat": 27.08,
+        "lng": 93.6
+      },
+      "coordinates": {
+        "latitude": 27.08,
+        "longitude": 93.6
+      },
+      "verified": true,
+      "verified_by": "USR002",
+      "verified_at": "2026-09-15T22:00:00Z",
+      "created_at": "2026-09-15T21:30:00Z",
+      "affected_roads": [],
+      "affected_habitations": [],
+      "affected_facilities": [],
+      "affected_missions": [],
+      "reports": [],
+      "critical_locations": [],
+      "affected_population": 1400
+    },
+    {
+      "id": "INC001",
+      "incident_id": "INC001",
+      "title": "Landslide on NH-27",
+      "type": "LANDSLIDE",
+      "severity": "CRITICAL",
+      "status": "ACTIVE",
+      "location_name": "Dima Hasao, Assam",
+      "time_ago": "2 hours ago",
+      "impact_status": "Road Blocked",
+      "description": "Massive hill subsidence and 200m road cut on NH-27 between Jatinga and Harangajao.",
+      "location": {
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "coordinates": {
+        "latitude": 25.4,
+        "longitude": 93.2
+      },
+      "verified": true,
+      "verified_by": "USR002",
+      "verified_at": "2026-09-16T06:45:00Z",
+      "created_at": "2026-09-16T06:30:00Z",
+      "affected_roads": [
+        "RD10",
+        "RD11"
+      ],
+      "affected_habitations": [
+        "HAB001"
+      ],
+      "affected_facilities": [
+        "FAC04"
+      ],
+      "affected_missions": [
+        "MIS001"
+      ],
+      "reports": [
+        "FR001"
+      ],
+      "critical_locations": [
+        "HAB001"
+      ],
+      "affected_population": 5300
+    },
+    {
+      "id": "INC007",
+      "type": "LANDSLIDE",
+      "incident_type": "LANDSLIDE",
+      "severity": "CRITICAL",
+      "status": "ACTIVE",
+      "description": "NH-27 arterial corridor completely blocked between Jatinga and Harangajao.",
+      "location": {
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "coordinates": {
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "verified": true,
+      "created_at": "2026-09-18T17:36:20.077858+00:00",
+      "affected_roads": [
+        "RD10"
+      ],
+      "affected_habitations": [
+        "HAB001"
+      ],
+      "affected_facilities": [
+        "FAC04"
+      ],
+      "affected_missions": [
+        "MIS001"
+      ],
+      "reports": [],
+      "verified_by": "USR-NER-DIST-001",
+      "verified_at": "2026-09-18T17:36:20.080150+00:00"
+    },
+    {
+      "id": "INC008",
+      "type": "LANDSLIDE",
+      "incident_type": "LANDSLIDE",
+      "severity": "CRITICAL",
+      "status": "ACTIVE",
+      "description": "NH-27 arterial corridor completely blocked between Jatinga and Harangajao.",
+      "location": {
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "coordinates": {
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "verified": true,
+      "created_at": "2026-09-18T18:06:01.534944+00:00",
+      "affected_roads": [
+        "RD10"
+      ],
+      "affected_habitations": [
+        "HAB001"
+      ],
+      "affected_facilities": [
+        "FAC04"
+      ],
+      "affected_missions": [
+        "MIS001"
+      ],
+      "reports": [],
+      "verified_by": "USR-NER-DIST-001",
+      "verified_at": "2026-09-18T18:06:01.537334+00:00"
+    },
+    {
+      "id": "INC009",
+      "type": "LANDSLIDE",
+      "incident_type": "LANDSLIDE",
+      "severity": "CRITICAL",
+      "status": "ACTIVE",
+      "description": "NH-27 arterial corridor completely blocked between Jatinga and Harangajao.",
+      "location": {
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "coordinates": {
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "verified": true,
+      "created_at": "2026-09-19T15:30:31.863647+00:00",
+      "affected_roads": [
+        "RD10"
+      ],
+      "affected_habitations": [
+        "HAB001"
+      ],
+      "affected_facilities": [
+        "FAC04"
+      ],
+      "affected_missions": [
+        "MIS001"
+      ],
+      "reports": [],
+      "verified_by": "USR-NER-DIST-001",
+      "verified_at": "2026-09-19T15:30:31.866107+00:00"
+    },
+    {
+      "id": "INC010",
+      "type": "LANDSLIDE",
+      "incident_type": "LANDSLIDE",
+      "severity": "CRITICAL",
+      "status": "ACTIVE",
+      "description": "NH-27 arterial corridor completely blocked between Jatinga and Harangajao.",
+      "location": {
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "coordinates": {
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "verified": true,
+      "created_at": "2026-09-19T15:30:45.457442+00:00",
+      "affected_roads": [
+        "RD10"
+      ],
+      "affected_habitations": [
+        "HAB001"
+      ],
+      "affected_facilities": [
+        "FAC04"
+      ],
+      "affected_missions": [
+        "MIS001"
+      ],
+      "reports": [],
+      "verified_by": "USR-NER-DIST-001",
+      "verified_at": "2026-09-19T15:30:45.460048+00:00"
+    },
+    {
+      "id": "INC011",
+      "type": "LANDSLIDE",
+      "incident_type": "LANDSLIDE",
+      "severity": "CRITICAL",
+      "status": "ACTIVE",
+      "description": "NH-27 arterial corridor completely blocked between Jatinga and Harangajao.",
+      "location": {
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "coordinates": {
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "verified": true,
+      "created_at": "2026-09-19T17:07:02.322222+00:00",
+      "affected_roads": [
+        "RD10"
+      ],
+      "affected_habitations": [
+        "HAB001"
+      ],
+      "affected_facilities": [
+        "FAC04"
+      ],
+      "affected_missions": [
+        "MIS001"
+      ],
+      "reports": [],
+      "verified_by": "USR-NER-DIST-001",
+      "verified_at": "2026-09-19T17:07:02.325115+00:00"
+    },
+    {
+      "id": "INC012",
+      "type": "LANDSLIDE",
+      "incident_type": "LANDSLIDE",
+      "severity": "CRITICAL",
+      "status": "ACTIVE",
+      "description": "NH-27 arterial corridor completely blocked between Jatinga and Harangajao.",
+      "location": {
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "coordinates": {
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "verified": true,
+      "created_at": "2026-09-19T17:10:06.242400+00:00",
+      "affected_roads": [
+        "RD10"
+      ],
+      "affected_habitations": [
+        "HAB001"
+      ],
+      "affected_facilities": [
+        "FAC04"
+      ],
+      "affected_missions": [
+        "MIS001"
+      ],
+      "reports": [],
+      "verified_by": "USR-NER-DIST-001",
+      "verified_at": "2026-09-19T17:10:06.245518+00:00"
+    },
+    {
+      "id": "INC013",
+      "type": "LANDSLIDE",
+      "incident_type": "LANDSLIDE",
+      "severity": "CRITICAL",
+      "status": "ACTIVE",
+      "description": "NH-27 arterial corridor completely blocked between Jatinga and Harangajao.",
+      "location": {
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "coordinates": {
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "verified": true,
+      "created_at": "2026-09-19T17:15:50.251706+00:00",
+      "affected_roads": [
+        "RD10"
+      ],
+      "affected_habitations": [
+        "HAB001"
+      ],
+      "affected_facilities": [
+        "FAC04"
+      ],
+      "affected_missions": [
+        "MIS001"
+      ],
+      "reports": [],
+      "verified_by": "USR-NER-DIST-001",
+      "verified_at": "2026-09-19T17:15:50.255000+00:00"
+    },
+    {
+      "id": "INC014",
+      "type": "LANDSLIDE",
+      "incident_type": "LANDSLIDE",
+      "severity": "CRITICAL",
+      "status": "ACTIVE",
+      "description": "NH-27 arterial corridor completely blocked between Jatinga and Harangajao.",
+      "location": {
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "coordinates": {
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "verified": true,
+      "created_at": "2026-09-19T17:23:14.803712+00:00",
+      "affected_roads": [
+        "RD10"
+      ],
+      "affected_habitations": [
+        "HAB001"
+      ],
+      "affected_facilities": [
+        "FAC04"
+      ],
+      "affected_missions": [
+        "MIS001"
+      ],
+      "reports": [],
+      "verified_by": "USR-NER-DIST-001",
+      "verified_at": "2026-09-19T17:23:14.806701+00:00"
+    },
+    {
+      "id": "INC015",
+      "type": "LANDSLIDE",
+      "incident_type": "LANDSLIDE",
+      "severity": "CRITICAL",
+      "status": "ACTIVE",
+      "description": "NH-27 arterial corridor completely blocked between Jatinga and Harangajao.",
+      "location": {
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "coordinates": {
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "verified": true,
+      "created_at": "2026-09-19T17:25:41.243009+00:00",
+      "affected_roads": [
+        "RD10"
+      ],
+      "affected_habitations": [
+        "HAB001"
+      ],
+      "affected_facilities": [
+        "FAC04"
+      ],
+      "affected_missions": [
+        "MIS001"
+      ],
+      "reports": [],
+      "verified_by": "USR-NER-DIST-001",
+      "verified_at": "2026-09-19T17:25:41.246133+00:00"
+    },
+    {
+      "id": "INC016",
+      "type": "LANDSLIDE",
+      "incident_type": "LANDSLIDE",
+      "severity": "CRITICAL",
+      "status": "ACTIVE",
+      "description": "NH-27 arterial corridor completely blocked between Jatinga and Harangajao.",
+      "location": {
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "coordinates": {
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "verified": true,
+      "created_at": "2026-09-19T17:26:29.459568+00:00",
+      "affected_roads": [
+        "RD10"
+      ],
+      "affected_habitations": [
+        "HAB001"
+      ],
+      "affected_facilities": [
+        "FAC04"
+      ],
+      "affected_missions": [
+        "MIS001"
+      ],
+      "reports": [],
+      "verified_by": "USR-NER-DIST-001",
+      "verified_at": "2026-09-19T17:26:29.462830+00:00"
+    },
+    {
+      "id": "INC017",
+      "type": "LANDSLIDE",
+      "incident_type": "LANDSLIDE",
+      "severity": "CRITICAL",
+      "status": "ACTIVE",
+      "description": "NH-27 arterial corridor completely blocked between Jatinga and Harangajao.",
+      "location": {
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "coordinates": {
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "verified": true,
+      "created_at": "2026-09-19T17:27:21.846148+00:00",
+      "affected_roads": [
+        "RD10"
+      ],
+      "affected_habitations": [
+        "HAB001"
+      ],
+      "affected_facilities": [
+        "FAC04"
+      ],
+      "affected_missions": [
+        "MIS001"
+      ],
+      "reports": [],
+      "verified_by": "USR-NER-DIST-001",
+      "verified_at": "2026-09-19T17:27:21.849548+00:00"
+    },
+    {
+      "id": "INC018",
+      "type": "LANDSLIDE",
+      "incident_type": "LANDSLIDE",
+      "severity": "CRITICAL",
+      "status": "ACTIVE",
+      "description": "NH-27 arterial corridor completely blocked between Jatinga and Harangajao.",
+      "location": {
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "coordinates": {
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "verified": true,
+      "created_at": "2026-09-19T17:27:59.481436+00:00",
+      "affected_roads": [
+        "RD10"
+      ],
+      "affected_habitations": [
+        "HAB001"
+      ],
+      "affected_facilities": [
+        "FAC04"
+      ],
+      "affected_missions": [
+        "MIS001"
+      ],
+      "reports": [],
+      "verified_by": "USR-NER-DIST-001",
+      "verified_at": "2026-09-19T17:27:59.484849+00:00"
+    },
+    {
+      "id": "INC019",
+      "type": "LANDSLIDE",
+      "incident_type": "LANDSLIDE",
+      "severity": "CRITICAL",
+      "status": "ACTIVE",
+      "description": "NH-27 arterial corridor completely blocked between Jatinga and Harangajao.",
+      "location": {
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "coordinates": {
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "verified": true,
+      "created_at": "2026-09-19T17:30:13.350902+00:00",
+      "affected_roads": [
+        "RD10"
+      ],
+      "affected_habitations": [
+        "HAB001"
+      ],
+      "affected_facilities": [
+        "FAC04"
+      ],
+      "affected_missions": [
+        "MIS001"
+      ],
+      "reports": [],
+      "verified_by": "USR-NER-DIST-001",
+      "verified_at": "2026-09-19T17:30:13.354534+00:00"
+    },
+    {
+      "id": "INC020",
+      "type": "LANDSLIDE",
+      "incident_type": "LANDSLIDE",
+      "severity": "CRITICAL",
+      "status": "ACTIVE",
+      "description": "NH-27 arterial corridor completely blocked between Jatinga and Harangajao.",
+      "location": {
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "coordinates": {
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "verified": true,
+      "created_at": "2026-09-19T18:17:24.847189+00:00",
+      "affected_roads": [
+        "RD10"
+      ],
+      "affected_habitations": [
+        "HAB001"
+      ],
+      "affected_facilities": [
+        "FAC04"
+      ],
+      "affected_missions": [
+        "MIS001"
+      ],
+      "reports": [],
+      "verified_by": "USR-NER-DIST-001",
+      "verified_at": "2026-09-19T18:17:24.850697+00:00"
+    },
+    {
+      "id": "INC021",
+      "type": "LANDSLIDE",
+      "incident_type": "LANDSLIDE",
+      "severity": "CRITICAL",
+      "status": "ACTIVE",
+      "description": "NH-27 arterial corridor completely blocked between Jatinga and Harangajao.",
+      "location": {
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "coordinates": {
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "verified": true,
+      "created_at": "2026-09-20T12:30:48.109085+00:00",
+      "affected_roads": [
+        "RD10"
+      ],
+      "affected_habitations": [
+        "HAB001"
+      ],
+      "affected_facilities": [
+        "FAC04"
+      ],
+      "affected_missions": [
+        "MIS001"
+      ],
+      "reports": [],
+      "verified_by": "USR-NER-DIST-001",
+      "verified_at": "2026-09-20T12:30:48.112567+00:00"
+    }
+  ],
+  "logistics_requests": [
+    {
+      "id": "SR-041",
+      "request_id": "SR-041",
+      "item": "Emergency Relief Supply",
+      "category": "Food",
+      "quantity": "1,000 units",
+      "unit": "units",
+      "requested_by": "District HQ",
+      "location": "Haflong",
+      "destination_id": "HAB001",
+      "location_id": "HAB001",
+      "destination": {
+        "id": "HAB001",
+        "name": "Haflong Relief Hub",
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "items": [
+        {
+          "resource_type": "WATER",
+          "quantity": 5000.0,
+          "unit": "LITRE"
+        },
+        {
+          "resource_type": "MEDICINE",
+          "quantity": 100.0,
+          "unit": "PACK"
+        }
+      ],
+      "priority": "HIGH",
+      "priority_details": {
+        "score": 75,
+        "level": "HIGH"
+      },
+      "status": "PENDING",
+      "requested_on": "20 Sep 2026",
+      "required_by": "2026-09-17T12:00:00Z",
+      "reason": "Drinking water supply and trauma dressings exhausted due to road cut.",
+      "created_at": "2026-09-20T12:30:48.116931+00:00"
+    },
+    {
+      "id": "SR-040",
+      "request_id": "SR-040",
+      "item": "Emergency Relief Supply",
+      "category": "Food",
+      "quantity": "1,000 units",
+      "unit": "units",
+      "requested_by": "District HQ",
+      "location": "Haflong",
+      "destination_id": "HAB001",
+      "location_id": "HAB001",
+      "destination": {
+        "id": "HAB001",
+        "name": "Haflong Relief Hub",
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "items": [
+        {
+          "resource_type": "WATER",
+          "quantity": 5000.0,
+          "unit": "LITRE"
+        },
+        {
+          "resource_type": "MEDICINE",
+          "quantity": 100.0,
+          "unit": "PACK"
+        }
+      ],
+      "priority": "HIGH",
+      "priority_details": {
+        "score": 75,
+        "level": "HIGH"
+      },
+      "status": "PENDING",
+      "requested_on": "19 Sep 2026",
+      "required_by": "2026-09-17T12:00:00Z",
+      "reason": "Drinking water supply and trauma dressings exhausted due to road cut.",
+      "created_at": "2026-09-19T18:17:24.855191+00:00"
+    },
+    {
+      "id": "SR-039",
+      "request_id": "SR-039",
+      "item": "Emergency Relief Supply",
+      "category": "Food",
+      "quantity": "1,000 units",
+      "unit": "units",
+      "requested_by": "District HQ",
+      "location": "Haflong",
+      "destination_id": "HAB001",
+      "location_id": "HAB001",
+      "destination": {
+        "id": "HAB001",
+        "name": "Haflong Relief Hub",
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "items": [
+        {
+          "resource_type": "WATER",
+          "quantity": 5000.0,
+          "unit": "LITRE"
+        },
+        {
+          "resource_type": "MEDICINE",
+          "quantity": 100.0,
+          "unit": "PACK"
+        }
+      ],
+      "priority": "HIGH",
+      "priority_details": {
+        "score": 75,
+        "level": "HIGH"
+      },
+      "status": "PENDING",
+      "requested_on": "19 Sep 2026",
+      "required_by": "2026-09-17T12:00:00Z",
+      "reason": "Drinking water supply and trauma dressings exhausted due to road cut.",
+      "created_at": "2026-09-19T17:30:13.359036+00:00"
+    },
+    {
+      "id": "SR-038",
+      "request_id": "SR-038",
+      "item": "Emergency Relief Supply",
+      "category": "Food",
+      "quantity": "1,000 units",
+      "unit": "units",
+      "requested_by": "District HQ",
+      "location": "Haflong",
+      "destination_id": "HAB001",
+      "location_id": "HAB001",
+      "destination": {
+        "id": "HAB001",
+        "name": "Haflong Relief Hub",
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "items": [
+        {
+          "resource_type": "WATER",
+          "quantity": 5000.0,
+          "unit": "LITRE"
+        },
+        {
+          "resource_type": "MEDICINE",
+          "quantity": 100.0,
+          "unit": "PACK"
+        }
+      ],
+      "priority": "HIGH",
+      "priority_details": {
+        "score": 75,
+        "level": "HIGH"
+      },
+      "status": "PENDING",
+      "requested_on": "19 Sep 2026",
+      "required_by": "2026-09-17T12:00:00Z",
+      "reason": "Drinking water supply and trauma dressings exhausted due to road cut.",
+      "created_at": "2026-09-19T17:27:59.489218+00:00"
+    },
+    {
+      "id": "SR-037",
+      "request_id": "SR-037",
+      "item": "Emergency Relief Supply",
+      "category": "Food",
+      "quantity": "1,000 units",
+      "unit": "units",
+      "requested_by": "District HQ",
+      "location": "Haflong",
+      "destination_id": "HAB001",
+      "location_id": "HAB001",
+      "destination": {
+        "id": "HAB001",
+        "name": "Haflong Relief Hub",
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "items": [
+        {
+          "resource_type": "WATER",
+          "quantity": 5000.0,
+          "unit": "LITRE"
+        },
+        {
+          "resource_type": "MEDICINE",
+          "quantity": 100.0,
+          "unit": "PACK"
+        }
+      ],
+      "priority": "HIGH",
+      "priority_details": {
+        "score": 75,
+        "level": "HIGH"
+      },
+      "status": "PENDING",
+      "requested_on": "19 Sep 2026",
+      "required_by": "2026-09-17T12:00:00Z",
+      "reason": "Drinking water supply and trauma dressings exhausted due to road cut.",
+      "created_at": "2026-09-19T17:27:21.853727+00:00"
+    },
+    {
+      "id": "SR-036",
+      "request_id": "SR-036",
+      "item": "Emergency Relief Supply",
+      "category": "Food",
+      "quantity": "1,000 units",
+      "unit": "units",
+      "requested_by": "District HQ",
+      "location": "Haflong",
+      "destination_id": "HAB001",
+      "location_id": "HAB001",
+      "destination": {
+        "id": "HAB001",
+        "name": "Haflong Relief Hub",
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "items": [
+        {
+          "resource_type": "WATER",
+          "quantity": 5000.0,
+          "unit": "LITRE"
+        },
+        {
+          "resource_type": "MEDICINE",
+          "quantity": 100.0,
+          "unit": "PACK"
+        }
+      ],
+      "priority": "HIGH",
+      "priority_details": {
+        "score": 75,
+        "level": "HIGH"
+      },
+      "status": "PENDING",
+      "requested_on": "19 Sep 2026",
+      "required_by": "2026-09-17T12:00:00Z",
+      "reason": "Drinking water supply and trauma dressings exhausted due to road cut.",
+      "created_at": "2026-09-19T17:26:29.467116+00:00"
+    },
+    {
+      "id": "SR-035",
+      "request_id": "SR-035",
+      "item": "Emergency Relief Supply",
+      "category": "Food",
+      "quantity": "1,000 units",
+      "unit": "units",
+      "requested_by": "District HQ",
+      "location": "Haflong",
+      "destination_id": "HAB001",
+      "location_id": "HAB001",
+      "destination": {
+        "id": "HAB001",
+        "name": "Haflong Relief Hub",
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "items": [
+        {
+          "resource_type": "WATER",
+          "quantity": 5000.0,
+          "unit": "LITRE"
+        },
+        {
+          "resource_type": "MEDICINE",
+          "quantity": 100.0,
+          "unit": "PACK"
+        }
+      ],
+      "priority": "HIGH",
+      "priority_details": {
+        "score": 75,
+        "level": "HIGH"
+      },
+      "status": "PENDING",
+      "requested_on": "19 Sep 2026",
+      "required_by": "2026-09-17T12:00:00Z",
+      "reason": "Drinking water supply and trauma dressings exhausted due to road cut.",
+      "created_at": "2026-09-19T17:25:41.249993+00:00"
+    },
+    {
+      "id": "SR-034",
+      "request_id": "SR-034",
+      "item": "Emergency Relief Supply",
+      "category": "Food",
+      "quantity": "1,000 units",
+      "unit": "units",
+      "requested_by": "District HQ",
+      "location": "Haflong",
+      "destination_id": "HAB001",
+      "location_id": "HAB001",
+      "destination": {
+        "id": "HAB001",
+        "name": "Haflong Relief Hub",
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "items": [
+        {
+          "resource_type": "WATER",
+          "quantity": 5000.0,
+          "unit": "LITRE"
+        },
+        {
+          "resource_type": "MEDICINE",
+          "quantity": 100.0,
+          "unit": "PACK"
+        }
+      ],
+      "priority": "HIGH",
+      "priority_details": {
+        "score": 75,
+        "level": "HIGH"
+      },
+      "status": "PENDING",
+      "requested_on": "19 Sep 2026",
+      "required_by": "2026-09-17T12:00:00Z",
+      "reason": "Drinking water supply and trauma dressings exhausted due to road cut.",
+      "created_at": "2026-09-19T17:23:14.810531+00:00"
+    },
+    {
+      "id": "SR-033",
+      "request_id": "SR-033",
+      "item": "Emergency Relief Supply",
+      "category": "Food",
+      "quantity": "1,000 units",
+      "unit": "units",
+      "requested_by": "District HQ",
+      "location": "Haflong",
+      "destination_id": "HAB001",
+      "location_id": "HAB001",
+      "destination": {
+        "id": "HAB001",
+        "name": "Haflong Relief Hub",
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "items": [
+        {
+          "resource_type": "WATER",
+          "quantity": 5000.0,
+          "unit": "LITRE"
+        },
+        {
+          "resource_type": "MEDICINE",
+          "quantity": 100.0,
+          "unit": "PACK"
+        }
+      ],
+      "priority": "HIGH",
+      "priority_details": {
+        "score": 75,
+        "level": "HIGH"
+      },
+      "status": "PENDING",
+      "requested_on": "19 Sep 2026",
+      "required_by": "2026-09-17T12:00:00Z",
+      "reason": "Drinking water supply and trauma dressings exhausted due to road cut.",
+      "created_at": "2026-09-19T17:15:50.258630+00:00"
+    },
+    {
+      "id": "SR-032",
+      "request_id": "SR-032",
+      "item": "Emergency Relief Supply",
+      "category": "Food",
+      "quantity": "1,000 units",
+      "unit": "units",
+      "requested_by": "District HQ",
+      "location": "Haflong",
+      "destination_id": "HAB001",
+      "location_id": "HAB001",
+      "destination": {
+        "id": "HAB001",
+        "name": "Haflong Relief Hub",
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "items": [
+        {
+          "resource_type": "WATER",
+          "quantity": 5000.0,
+          "unit": "LITRE"
+        },
+        {
+          "resource_type": "MEDICINE",
+          "quantity": 100.0,
+          "unit": "PACK"
+        }
+      ],
+      "priority": "HIGH",
+      "priority_details": {
+        "score": 75,
+        "level": "HIGH"
+      },
+      "status": "PENDING",
+      "requested_on": "19 Sep 2026",
+      "required_by": "2026-09-17T12:00:00Z",
+      "reason": "Drinking water supply and trauma dressings exhausted due to road cut.",
+      "created_at": "2026-09-19T17:10:06.249112+00:00"
+    },
+    {
+      "id": "SR-031",
+      "request_id": "SR-031",
+      "item": "Emergency Relief Supply",
+      "category": "Food",
+      "quantity": "1,000 units",
+      "unit": "units",
+      "requested_by": "District HQ",
+      "location": "Haflong",
+      "destination_id": "HAB001",
+      "location_id": "HAB001",
+      "destination": {
+        "id": "HAB001",
+        "name": "Haflong Relief Hub",
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "items": [
+        {
+          "resource_type": "WATER",
+          "quantity": 5000.0,
+          "unit": "LITRE"
+        },
+        {
+          "resource_type": "MEDICINE",
+          "quantity": 100.0,
+          "unit": "PACK"
+        }
+      ],
+      "priority": "HIGH",
+      "priority_details": {
+        "score": 75,
+        "level": "HIGH"
+      },
+      "status": "PENDING",
+      "requested_on": "19 Sep 2026",
+      "required_by": "2026-09-17T12:00:00Z",
+      "reason": "Drinking water supply and trauma dressings exhausted due to road cut.",
+      "created_at": "2026-09-19T17:07:02.328522+00:00"
+    },
+    {
+      "id": "SR-030",
+      "request_id": "SR-030",
+      "item": "Emergency Relief Supply",
+      "category": "Food",
+      "quantity": 1000,
+      "unit": "units",
+      "requested_by": "District HQ",
+      "location": "Haflong",
+      "destination_id": "HAB001",
+      "location_id": "HAB001",
+      "destination": {
+        "id": "HAB001",
+        "name": "Haflong Relief Hub",
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "items": [
+        {
+          "resource_type": "MEDICAL",
+          "quantity": 1000,
+          "unit": "units"
+        }
+      ],
+      "priority": "MEDIUM",
+      "priority_details": {
+        "score": 75,
+        "level": "MEDIUM"
+      },
+      "status": "FULFILLED",
+      "requested_on": "19 Sep 2026",
+      "required_by": "2026-09-17T10:00:00Z",
+      "reason": "Status transition to Fulfilled by logistics coordinator.",
+      "created_at": "2026-09-19T16:30:14.527258+00:00"
+    },
+    {
+      "id": "SR-017",
+      "request_id": "SR-017",
+      "item": "Food Packets",
+      "category": "Food",
+      "quantity": 5000,
+      "unit": "units",
+      "requested_by": "Dima Hasao DC",
+      "location": "Haflong",
+      "priority": "CRITICAL",
+      "priority_details": {
+        "score": 98,
+        "level": "CRITICAL"
+      },
+      "status": "APPROVED",
+      "requested_on": "16 Sep 2025",
+      "required_by": "2026-09-17T10:00:00Z",
+      "destination_id": "HAB001",
+      "destination": {
+        "id": "HAB001",
+        "name": "Haflong Regional Hub",
+        "lat": 25.185,
+        "lng": 93.025
+      },
+      "items": [
+        {
+          "resource_type": "FOOD",
+          "quantity": 5000,
+          "unit": "units"
+        }
+      ],
+      "created_at": "2026-09-18T17:35:19.794178+00:00",
+      "reason": "Status transition to Approved by logistics coordinator."
+    },
+    {
+      "id": "SR-016",
+      "request_id": "SR-016",
+      "item": "Drinking Water (1L)",
+      "category": "Water",
+      "quantity": 10000,
+      "unit": "units",
+      "requested_by": "Karbi Anglong DC",
+      "location": "Diphu",
+      "priority": "HIGH",
+      "priority_details": {
+        "score": 88,
+        "level": "HIGH"
+      },
+      "status": "APPROVED",
+      "requested_on": "15 Sep 2025",
+      "required_by": "2026-09-17T12:00:00Z",
+      "destination_id": "HAB002",
+      "destination": {
+        "id": "HAB002",
+        "name": "Diphu Community Center",
+        "lat": 25.84,
+        "lng": 93.43
+      },
+      "items": [
+        {
+          "resource_type": "WATER",
+          "quantity": 10000,
+          "unit": "units"
+        }
+      ],
+      "created_at": "2026-09-18T17:35:19.794178+00:00"
+    },
+    {
+      "id": "SR-015",
+      "request_id": "SR-015",
+      "item": "Medicine Kits",
+      "category": "Medical",
+      "quantity": 2000,
+      "unit": "units",
+      "requested_by": "Tura SDM",
+      "location": "Tura",
+      "priority": "HIGH",
+      "priority_details": {
+        "score": 85,
+        "level": "HIGH"
+      },
+      "status": "IN_TRANSIT",
+      "requested_on": "15 Sep 2025",
+      "required_by": "2026-09-17T08:00:00Z",
+      "destination_id": "HAB003",
+      "destination": {
+        "id": "HAB003",
+        "name": "Tura Civil Hospital",
+        "lat": 25.52,
+        "lng": 90.22
+      },
+      "items": [
+        {
+          "resource_type": "MEDICINE",
+          "quantity": 2000,
+          "unit": "units"
+        }
+      ],
+      "created_at": "2026-09-18T17:35:19.794178+00:00"
+    },
+    {
+      "id": "SR-014",
+      "request_id": "SR-014",
+      "item": "Tents",
+      "category": "Shelter",
+      "quantity": 500,
+      "unit": "units",
+      "requested_by": "Aizawl DC",
+      "location": "Aizawl",
+      "priority": "MEDIUM",
+      "priority_details": {
+        "score": 68,
+        "level": "MEDIUM"
+      },
+      "status": "APPROVED",
+      "requested_on": "14 Sep 2025",
+      "required_by": "2026-09-18T12:00:00Z",
+      "destination_id": "HAB004",
+      "destination": {
+        "id": "HAB004",
+        "name": "Aizawl Relief Staging Ground",
+        "lat": 23.73,
+        "lng": 92.72
+      },
+      "items": [
+        {
+          "resource_type": "SHELTER_KIT",
+          "quantity": 500,
+          "unit": "units"
+        }
+      ],
+      "created_at": "2026-09-18T17:35:19.794178+00:00"
+    },
+    {
+      "id": "SR-013",
+      "request_id": "SR-013",
+      "item": "Fuel (Diesel)",
+      "category": "Fuel",
+      "quantity": 8000,
+      "unit": "L",
+      "requested_by": "Itanagar DC",
+      "location": "Itanagar",
+      "priority": "MEDIUM",
+      "priority_details": {
+        "score": 62,
+        "level": "MEDIUM"
+      },
+      "status": "PENDING",
+      "requested_on": "14 Sep 2025",
+      "required_by": "2026-09-18T18:00:00Z",
+      "destination_id": "HAB005",
+      "destination": {
+        "id": "HAB005",
+        "name": "Itanagar Generator Depot",
+        "lat": 27.08,
+        "lng": 93.6
+      },
+      "items": [
+        {
+          "resource_type": "FUEL",
+          "quantity": 8000,
+          "unit": "L"
+        }
+      ],
+      "created_at": "2026-09-18T17:35:19.794178+00:00"
+    },
+    {
+      "id": "SR-012",
+      "request_id": "SR-012",
+      "item": "Blankets",
+      "category": "Relief",
+      "quantity": 3000,
+      "unit": "units",
+      "requested_by": "Kohima DC",
+      "location": "Kohima",
+      "priority": "LOW",
+      "priority_details": {
+        "score": 42,
+        "level": "LOW"
+      },
+      "status": "FULFILLED",
+      "requested_on": "13 Sep 2025",
+      "required_by": "2026-09-16T12:00:00Z",
+      "destination_id": "HAB006",
+      "destination": {
+        "id": "HAB006",
+        "name": "Kohima Multi-Shelter",
+        "lat": 25.67,
+        "lng": 94.11
+      },
+      "items": [
+        {
+          "resource_type": "SHELTER_KIT",
+          "quantity": 3000,
+          "unit": "units"
+        }
+      ],
+      "created_at": "2026-09-18T17:35:19.794178+00:00"
+    },
+    {
+      "id": "SR-011",
+      "request_id": "SR-011",
+      "item": "Solar Lamps",
+      "category": "Power",
+      "quantity": 1000,
+      "unit": "units",
+      "requested_by": "Shillong DC",
+      "location": "Shillong",
+      "priority": "LOW",
+      "priority_details": {
+        "score": 38,
+        "level": "LOW"
+      },
+      "status": "FULFILLED",
+      "requested_on": "12 Sep 2025",
+      "required_by": "2026-09-15T12:00:00Z",
+      "destination_id": "HAB007",
+      "destination": {
+        "id": "HAB007",
+        "name": "East Khasi Hills Safe Haven",
+        "lat": 25.57,
+        "lng": 91.88
+      },
+      "items": [
+        {
+          "resource_type": "POWER",
+          "quantity": 1000,
+          "unit": "units"
+        }
+      ],
+      "created_at": "2026-09-18T17:35:19.794178+00:00"
+    },
+    {
+      "id": "REQ001",
+      "request_id": "REQ001",
+      "item": "Water & Trauma Medicine",
+      "category": "Medical",
+      "quantity": 5000,
+      "unit": "LITRE",
+      "destination_id": "HAB001",
+      "destination": {
+        "id": "HAB001",
+        "name": "Village A (Harangajao)",
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "priority": "CRITICAL",
+      "priority_details": {
+        "score": 94,
+        "level": "CRITICAL"
+      },
+      "status": "PENDING",
+      "items": [
+        {
+          "resource_type": "WATER",
+          "quantity": 5000,
+          "unit": "LITRE"
+        },
+        {
+          "resource_type": "MEDICINE",
+          "quantity": 100,
+          "unit": "PACK"
+        }
+      ],
+      "required_by": "2026-09-17T10:00:00Z",
+      "reason": "Flood isolation & road cut",
+      "created_at": "2026-09-18T17:35:19.794178+00:00"
+    },
+    {
+      "id": "REQ009",
+      "destination_id": "HAB001",
+      "location_id": "HAB001",
+      "destination": {
+        "id": "HAB001",
+        "name": "Village Target",
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "items": [
+        {
+          "resource_type": "WATER",
+          "quantity": 5000.0,
+          "unit": "LITRE"
+        },
+        {
+          "resource_type": "MEDICINE",
+          "quantity": 100.0,
+          "unit": "PACK"
+        }
+      ],
+      "priority": "UNASSESSED",
+      "priority_details": {
+        "score": 94,
+        "level": "CRITICAL"
+      },
+      "status": "PENDING",
+      "required_by": "2026-09-17T12:00:00Z",
+      "reason": "Drinking water supply and trauma dressings exhausted due to road cut.",
+      "created_at": "2026-09-18T17:36:20.083864+00:00"
+    },
+    {
+      "id": "REQ010",
+      "destination_id": "HAB001",
+      "location_id": "HAB001",
+      "destination": {
+        "id": "HAB001",
+        "name": "Village Target",
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "items": [
+        {
+          "resource_type": "WATER",
+          "quantity": 5000.0,
+          "unit": "LITRE"
+        },
+        {
+          "resource_type": "MEDICINE",
+          "quantity": 100.0,
+          "unit": "PACK"
+        }
+      ],
+      "priority": "UNASSESSED",
+      "priority_details": {
+        "score": 94,
+        "level": "CRITICAL"
+      },
+      "status": "PENDING",
+      "required_by": "2026-09-17T12:00:00Z",
+      "reason": "Drinking water supply and trauma dressings exhausted due to road cut.",
+      "created_at": "2026-09-18T18:06:01.540438+00:00"
+    },
+    {
+      "id": "REQ011",
+      "destination_id": "HAB001",
+      "location_id": "HAB001",
+      "destination": {
+        "id": "HAB001",
+        "name": "Village Target",
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "items": [
+        {
+          "resource_type": "WATER",
+          "quantity": 5000.0,
+          "unit": "LITRE"
+        },
+        {
+          "resource_type": "MEDICINE",
+          "quantity": 100.0,
+          "unit": "PACK"
+        }
+      ],
+      "priority": "UNASSESSED",
+      "priority_details": {
+        "score": 94,
+        "level": "CRITICAL"
+      },
+      "status": "PENDING",
+      "required_by": "2026-09-17T12:00:00Z",
+      "reason": "Drinking water supply and trauma dressings exhausted due to road cut.",
+      "created_at": "2026-09-19T15:30:31.869263+00:00"
+    },
+    {
+      "id": "REQ012",
+      "destination_id": "HAB001",
+      "location_id": "HAB001",
+      "destination": {
+        "id": "HAB001",
+        "name": "Village Target",
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "items": [
+        {
+          "resource_type": "WATER",
+          "quantity": 5000.0,
+          "unit": "LITRE"
+        },
+        {
+          "resource_type": "MEDICINE",
+          "quantity": 100.0,
+          "unit": "PACK"
+        }
+      ],
+      "priority": "UNASSESSED",
+      "priority_details": {
+        "score": 94,
+        "level": "CRITICAL"
+      },
+      "status": "PENDING",
+      "required_by": "2026-09-17T12:00:00Z",
+      "reason": "Drinking water supply and trauma dressings exhausted due to road cut.",
+      "created_at": "2026-09-19T15:30:45.463351+00:00"
+    }
+  ],
+  "resource_types": [
+    {
+      "id": "WATER",
+      "name": "Drinking Water",
+      "allowed_units": [
+        "LITRE",
+        "BOTTLES",
+        "BOX"
+      ]
+    },
+    {
+      "id": "FOOD",
+      "name": "Ready-to-Eat Rations",
+      "allowed_units": [
+        "PACK",
+        "KG",
+        "MEALS"
+      ]
+    },
+    {
+      "id": "MEDICINE",
+      "name": "Emergency Medical Trauma Packs",
+      "allowed_units": [
+        "PACK",
+        "KITS"
+      ]
+    },
+    {
+      "id": "SHELTER_KIT",
+      "name": "All-Weather Tarpaulins & Tents",
+      "allowed_units": [
+        "UNIT",
+        "SETS"
+      ]
+    },
+    {
+      "id": "FUEL",
+      "name": "High-Altitude Diesel Fuel",
+      "allowed_units": [
+        "LITRE",
+        "DRUMS"
+      ]
+    }
+  ],
+  "inventory": [
+    {
+      "id": "INV01",
+      "warehouse_id": "WH01",
+      "resource_type": "WATER",
+      "stock": 7200,
+      "reserved": 76000.0,
+      "available": -68800.0,
+      "unit": "LITRE"
+    },
+    {
+      "id": "INV02",
+      "warehouse_id": "WH01",
+      "resource_type": "MEDICINE",
+      "stock": 450,
+      "reserved": 100,
+      "available": 350,
+      "unit": "PACK"
+    },
+    {
+      "id": "INV03",
+      "warehouse_id": "WH01",
+      "resource_type": "FOOD",
+      "stock": 5000,
+      "reserved": 500,
+      "available": 4500,
+      "unit": "PACK"
+    },
+    {
+      "id": "INV04",
+      "warehouse_id": "WH04",
+      "resource_type": "WATER",
+      "stock": 12000,
+      "reserved": 2000,
+      "available": 10000,
+      "unit": "LITRE"
+    },
+    {
+      "id": "INV05",
+      "warehouse_id": "WH04",
+      "resource_type": "FOOD",
+      "stock": 8000,
+      "reserved": 1000,
+      "available": 7000,
+      "unit": "PACK"
+    }
+  ],
+  "reservations": [
+    {
+      "id": "RES001",
+      "inventory_id": "INV01",
+      "mission_id": "MIS001",
+      "quantity": 1000,
+      "status": "ACTIVE",
+      "created_at": "2026-09-18T17:35:19.794178+00:00"
+    },
+    {
+      "id": "RES002",
+      "inventory_id": "INV01",
+      "mission_id": "MIS001",
+      "quantity": 5000.0,
+      "created_at": "2026-09-18T17:36:20.089695+00:00"
+    },
+    {
+      "id": "RES003",
+      "inventory_id": "INV01",
+      "mission_id": "MIS001",
+      "quantity": 5000.0,
+      "created_at": "2026-09-18T18:06:01.556567+00:00"
+    },
+    {
+      "id": "RES004",
+      "inventory_id": "INV01",
+      "mission_id": "MIS001",
+      "quantity": 5000.0,
+      "created_at": "2026-09-19T15:30:31.875338+00:00"
+    },
+    {
+      "id": "RES005",
+      "inventory_id": "INV01",
+      "mission_id": "MIS001",
+      "quantity": 5000.0,
+      "created_at": "2026-09-19T15:30:45.470881+00:00"
+    },
+    {
+      "id": "RES006",
+      "inventory_id": "INV01",
+      "mission_id": "MIS001",
+      "quantity": 5000.0,
+      "created_at": "2026-09-19T17:07:02.334734+00:00"
+    },
+    {
+      "id": "RES007",
+      "inventory_id": "INV01",
+      "mission_id": "MIS001",
+      "quantity": 5000.0,
+      "created_at": "2026-09-19T17:10:06.255440+00:00"
+    },
+    {
+      "id": "RES008",
+      "inventory_id": "INV01",
+      "mission_id": "MIS001",
+      "quantity": 5000.0,
+      "created_at": "2026-09-19T17:15:50.264874+00:00"
+    },
+    {
+      "id": "RES009",
+      "inventory_id": "INV01",
+      "mission_id": "MIS001",
+      "quantity": 5000.0,
+      "created_at": "2026-09-19T17:23:14.816930+00:00"
+    },
+    {
+      "id": "RES010",
+      "inventory_id": "INV01",
+      "mission_id": "MIS001",
+      "quantity": 5000.0,
+      "created_at": "2026-09-19T17:25:41.256374+00:00"
+    },
+    {
+      "id": "RES011",
+      "inventory_id": "INV01",
+      "mission_id": "MIS001",
+      "quantity": 5000.0,
+      "created_at": "2026-09-19T17:26:29.473722+00:00"
+    },
+    {
+      "id": "RES012",
+      "inventory_id": "INV01",
+      "mission_id": "MIS001",
+      "quantity": 5000.0,
+      "created_at": "2026-09-19T17:27:21.860400+00:00"
+    },
+    {
+      "id": "RES013",
+      "inventory_id": "INV01",
+      "mission_id": "MIS001",
+      "quantity": 5000.0,
+      "created_at": "2026-09-19T17:27:59.496117+00:00"
+    },
+    {
+      "id": "RES014",
+      "inventory_id": "INV01",
+      "mission_id": "MIS001",
+      "quantity": 5000.0,
+      "created_at": "2026-09-19T17:30:13.366144+00:00"
+    },
+    {
+      "id": "RES015",
+      "inventory_id": "INV01",
+      "mission_id": "MIS001",
+      "quantity": 5000.0,
+      "created_at": "2026-09-19T18:17:24.862036+00:00"
+    },
+    {
+      "id": "RES016",
+      "inventory_id": "INV01",
+      "mission_id": "MIS001",
+      "quantity": 5000.0,
+      "created_at": "2026-09-20T12:30:48.123611+00:00"
+    }
+  ],
+  "dispatches": [
+    {
+      "dispatch_id": "DSP001",
+      "warehouse_id": "WH01",
+      "mission_id": "MIS001",
+      "status": "DISPATCHED",
+      "items": [
+        {
+          "resource_type": "WATER",
+          "quantity": 1000
+        }
+      ],
+      "dispatched_at": "2026-09-18T17:35:19.794178+00:00"
+    },
+    {
+      "dispatch_id": "DSP002",
+      "warehouse_id": "WH01",
+      "mission_id": "MIS007",
+      "status": "DISPATCHED",
+      "items": [
+        {
+          "resource_type": "WATER",
+          "quantity": 5000
+        }
+      ],
+      "dispatched_at": "2026-09-18T17:36:20.098657+00:00"
+    },
+    {
+      "dispatch_id": "DSP003",
+      "warehouse_id": "WH01",
+      "mission_id": "MIS008",
+      "status": "DISPATCHED",
+      "items": [
+        {
+          "resource_type": "WATER",
+          "quantity": 5000
+        }
+      ],
+      "dispatched_at": "2026-09-18T18:06:01.568532+00:00"
+    },
+    {
+      "dispatch_id": "DSP004",
+      "warehouse_id": "WH01",
+      "mission_id": "MIS009",
+      "status": "DISPATCHED",
+      "items": [
+        {
+          "resource_type": "WATER",
+          "quantity": 5000
+        }
+      ],
+      "dispatched_at": "2026-09-19T15:30:31.884517+00:00"
+    },
+    {
+      "dispatch_id": "DSP005",
+      "warehouse_id": "WH01",
+      "mission_id": "MIS010",
+      "status": "DISPATCHED",
+      "items": [
+        {
+          "resource_type": "WATER",
+          "quantity": 5000
+        }
+      ],
+      "dispatched_at": "2026-09-19T15:30:45.480379+00:00"
+    },
+    {
+      "dispatch_id": "DSP006",
+      "warehouse_id": "WH01",
+      "mission_id": "MIS011",
+      "status": "DISPATCHED",
+      "items": [
+        {
+          "resource_type": "WATER",
+          "quantity": 5000
+        }
+      ],
+      "dispatched_at": "2026-09-19T17:07:02.344883+00:00"
+    },
+    {
+      "dispatch_id": "DSP007",
+      "warehouse_id": "WH01",
+      "mission_id": "MIS012",
+      "status": "DISPATCHED",
+      "items": [
+        {
+          "resource_type": "WATER",
+          "quantity": 5000
+        }
+      ],
+      "dispatched_at": "2026-09-19T17:10:06.266004+00:00"
+    },
+    {
+      "dispatch_id": "DSP008",
+      "warehouse_id": "WH01",
+      "mission_id": "MIS013",
+      "status": "DISPATCHED",
+      "items": [
+        {
+          "resource_type": "WATER",
+          "quantity": 5000
+        }
+      ],
+      "dispatched_at": "2026-09-19T17:15:50.275510+00:00"
+    },
+    {
+      "dispatch_id": "DSP009",
+      "warehouse_id": "WH01",
+      "mission_id": "MIS014",
+      "status": "DISPATCHED",
+      "items": [
+        {
+          "resource_type": "WATER",
+          "quantity": 5000
+        }
+      ],
+      "dispatched_at": "2026-09-19T17:23:14.827312+00:00"
+    },
+    {
+      "dispatch_id": "DSP010",
+      "warehouse_id": "WH01",
+      "mission_id": "MIS015",
+      "status": "DISPATCHED",
+      "items": [
+        {
+          "resource_type": "WATER",
+          "quantity": 5000
+        }
+      ],
+      "dispatched_at": "2026-09-19T17:25:41.267852+00:00"
+    },
+    {
+      "dispatch_id": "DSP011",
+      "warehouse_id": "WH01",
+      "mission_id": "MIS016",
+      "status": "DISPATCHED",
+      "items": [
+        {
+          "resource_type": "WATER",
+          "quantity": 5000
+        }
+      ],
+      "dispatched_at": "2026-09-19T17:26:29.485050+00:00"
+    },
+    {
+      "dispatch_id": "DSP012",
+      "warehouse_id": "WH01",
+      "mission_id": "MIS017",
+      "status": "DISPATCHED",
+      "items": [
+        {
+          "resource_type": "WATER",
+          "quantity": 5000
+        }
+      ],
+      "dispatched_at": "2026-09-19T17:27:21.872067+00:00"
+    },
+    {
+      "dispatch_id": "DSP013",
+      "warehouse_id": "WH01",
+      "mission_id": "MIS018",
+      "status": "DISPATCHED",
+      "items": [
+        {
+          "resource_type": "WATER",
+          "quantity": 5000
+        }
+      ],
+      "dispatched_at": "2026-09-19T17:27:59.509309+00:00"
+    },
+    {
+      "dispatch_id": "DSP014",
+      "warehouse_id": "WH01",
+      "mission_id": "MIS019",
+      "status": "DISPATCHED",
+      "items": [
+        {
+          "resource_type": "WATER",
+          "quantity": 5000
+        }
+      ],
+      "dispatched_at": "2026-09-19T17:30:13.378317+00:00"
+    },
+    {
+      "dispatch_id": "DSP015",
+      "warehouse_id": "WH01",
+      "mission_id": "MIS020",
+      "status": "DISPATCHED",
+      "items": [
+        {
+          "resource_type": "WATER",
+          "quantity": 5000
+        }
+      ],
+      "dispatched_at": "2026-09-19T18:17:24.874208+00:00"
+    },
+    {
+      "dispatch_id": "DSP016",
+      "warehouse_id": "WH01",
+      "mission_id": "MIS021",
+      "status": "DISPATCHED",
+      "items": [
+        {
+          "resource_type": "WATER",
+          "quantity": 5000
+        }
+      ],
+      "dispatched_at": "2026-09-20T12:30:48.135681+00:00"
+    }
+  ],
+  "vehicle_telemetry": {
+    "VH017": [
+      {
+        "lat": 25.4,
+        "lng": 93.1,
+        "speed": 40,
+        "heading": 120,
+        "timestamp": "2026-09-16T09:00:00Z"
+      },
+      {
+        "lat": 25.44,
+        "lng": 93.21,
+        "speed": 32,
+        "heading": 140,
+        "timestamp": "2026-09-16T09:30:00Z"
+      },
+      {
+        "lat": 25.22,
+        "lng": 93.06,
+        "speed": 34.5,
+        "heading": 135.0,
+        "timestamp": "2026-09-18T17:36:20.103660+00:00"
+      },
+      {
+        "lat": 25.22,
+        "lng": 93.06,
+        "speed": 34.5,
+        "heading": 135.0,
+        "timestamp": "2026-09-18T18:06:01.573674+00:00"
+      },
+      {
+        "lat": 25.22,
+        "lng": 93.06,
+        "speed": 34.5,
+        "heading": 135.0,
+        "timestamp": "2026-09-19T15:30:31.889465+00:00"
+      },
+      {
+        "lat": 25.22,
+        "lng": 93.06,
+        "speed": 34.5,
+        "heading": 135.0,
+        "timestamp": "2026-09-19T15:30:45.485365+00:00"
+      },
+      {
+        "lat": 25.22,
+        "lng": 93.06,
+        "speed": 34.5,
+        "heading": 135.0,
+        "timestamp": "2026-09-19T17:07:02.351043+00:00"
+      },
+      {
+        "lat": 25.22,
+        "lng": 93.06,
+        "speed": 34.5,
+        "heading": 135.0,
+        "timestamp": "2026-09-19T17:10:06.273143+00:00"
+      },
+      {
+        "lat": 25.22,
+        "lng": 93.06,
+        "speed": 34.5,
+        "heading": 135.0,
+        "timestamp": "2026-09-19T17:15:50.281438+00:00"
+      },
+      {
+        "lat": 25.22,
+        "lng": 93.06,
+        "speed": 34.5,
+        "heading": 135.0,
+        "timestamp": "2026-09-19T17:23:14.833213+00:00"
+      },
+      {
+        "lat": 25.22,
+        "lng": 93.06,
+        "speed": 34.5,
+        "heading": 135.0,
+        "timestamp": "2026-09-19T17:25:41.274531+00:00"
+      },
+      {
+        "lat": 25.22,
+        "lng": 93.06,
+        "speed": 34.5,
+        "heading": 135.0,
+        "timestamp": "2026-09-19T17:26:29.491768+00:00"
+      },
+      {
+        "lat": 25.22,
+        "lng": 93.06,
+        "speed": 34.5,
+        "heading": 135.0,
+        "timestamp": "2026-09-19T17:27:21.880460+00:00"
+      },
+      {
+        "lat": 25.22,
+        "lng": 93.06,
+        "speed": 34.5,
+        "heading": 135.0,
+        "timestamp": "2026-09-19T17:27:59.516650+00:00"
+      },
+      {
+        "lat": 25.22,
+        "lng": 93.06,
+        "speed": 34.5,
+        "heading": 135.0,
+        "timestamp": "2026-09-19T17:30:13.385517+00:00"
+      },
+      {
+        "lat": 25.22,
+        "lng": 93.06,
+        "speed": 34.5,
+        "heading": 135.0,
+        "timestamp": "2026-09-19T18:17:24.881858+00:00"
+      },
+      {
+        "lat": 25.22,
+        "lng": 93.06,
+        "speed": 34.5,
+        "heading": 135.0,
+        "timestamp": "2026-09-20T12:30:48.142529+00:00"
+      }
+    ],
+    "VEH-NER-4X4-01": [
+      {
+        "lat": 25.4,
+        "lng": 93.1,
+        "speed": 40,
+        "heading": 120,
+        "timestamp": "2026-09-16T09:00:00Z"
+      },
+      {
+        "lat": 25.44,
+        "lng": 93.21,
+        "speed": 32,
+        "heading": 140,
+        "timestamp": "2026-09-16T09:30:00Z"
+      }
+    ]
+  },
+  "missions": [
+    {
+      "id": "MS-017",
+      "mission_id": "MS-017",
+      "title": "Medical Supplies to Village A",
+      "status": "DELAYED",
+      "delay_reason": "Delayed due to landslide on NH-27",
+      "priority": "CRITICAL",
+      "request_id": "SR-015",
+      "warehouse_id": "WH01",
+      "vehicle_id": "VH017",
+      "route_id": "R1",
+      "origin": {
+        "warehouse_id": "WH01",
+        "name": "Guwahati Central Strategic Hub",
+        "lat": 26.14,
+        "lng": 91.73
+      },
+      "destination": {
+        "habitation_id": "HAB001",
+        "name": "Village A (Harangajao)",
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "resources": [
+        {
+          "resource_type": "MEDICINE",
+          "quantity": 2000,
+          "unit": "units"
+        }
+      ],
+      "vehicle": {
+        "id": "VH017",
+        "callsign": "BRAHMAPUTRA-TACTICAL-01",
+        "type": "TRUCK",
+        "capacity": 5000
+      },
+      "eta": "16 Sep, 18:00",
+      "progress": 45,
+      "created_at": "2026-09-18T17:35:19.794178+00:00"
+    },
+    {
+      "id": "MS-021",
+      "mission_id": "MS-021",
+      "title": "Food Packets to Maibong",
+      "status": "REPLANNING",
+      "delay_reason": "Rerouting via alternate route",
+      "priority": "HIGH",
+      "request_id": "SR-017",
+      "warehouse_id": "WH02",
+      "vehicle_id": "VH018",
+      "route_id": "R2",
+      "origin": {
+        "warehouse_id": "WH02",
+        "name": "Dima Hasao Regional Depot",
+        "lat": 25.18,
+        "lng": 93.02
+      },
+      "destination": {
+        "habitation_id": "HAB002",
+        "name": "Maibong Relief Camp",
+        "lat": 25.3,
+        "lng": 93.16
+      },
+      "resources": [
+        {
+          "resource_type": "FOOD",
+          "quantity": 5000,
+          "unit": "units"
+        }
+      ],
+      "vehicle": {
+        "id": "VH018",
+        "callsign": "MEGHALAYA-OFFROAD-02",
+        "type": "4X4_LIGHT",
+        "capacity": 1500
+      },
+      "eta": "17 Sep, 10:00",
+      "progress": 30,
+      "created_at": "2026-09-18T17:35:19.794178+00:00"
+    },
+    {
+      "id": "MS-038",
+      "mission_id": "MS-038",
+      "title": "Shelter Materials to NH-27",
+      "status": "ON_HOLD",
+      "delay_reason": "On hold due to road closure",
+      "priority": "MEDIUM",
+      "request_id": "SR-014",
+      "warehouse_id": "WH01",
+      "vehicle_id": "VH019",
+      "route_id": "R1",
+      "origin": {
+        "warehouse_id": "WH01",
+        "name": "Guwahati Central Strategic Hub",
+        "lat": 26.14,
+        "lng": 91.73
+      },
+      "destination": {
+        "habitation_id": "HAB001",
+        "name": "Jatinga Ridge",
+        "lat": 25.12,
+        "lng": 93.04
+      },
+      "resources": [
+        {
+          "resource_type": "SHELTER_KIT",
+          "quantity": 500,
+          "unit": "units"
+        }
+      ],
+      "vehicle": {
+        "id": "VH019",
+        "callsign": "HILL-DEFENDER-03",
+        "type": "TRUCK",
+        "capacity": 4000
+      },
+      "eta": "18 Sep, 12:00",
+      "progress": 15,
+      "created_at": "2026-09-18T17:35:19.794178+00:00"
+    },
+    {
+      "id": "MS-042",
+      "mission_id": "MS-042",
+      "title": "Fuel Delivery to Aizawl",
+      "status": "REPLANNED",
+      "delay_reason": "New route assigned",
+      "priority": "MEDIUM",
+      "request_id": "SR-013",
+      "warehouse_id": "WH03",
+      "vehicle_id": "VH020",
+      "route_id": "R3",
+      "origin": {
+        "warehouse_id": "WH03",
+        "name": "Silchar Valley Strategic Reserve",
+        "lat": 24.83,
+        "lng": 92.78
+      },
+      "destination": {
+        "habitation_id": "HAB004",
+        "name": "Aizawl Generator Depot",
+        "lat": 23.73,
+        "lng": 92.72
+      },
+      "resources": [
+        {
+          "resource_type": "FUEL",
+          "quantity": 8000,
+          "unit": "L"
+        }
+      ],
+      "vehicle": {
+        "id": "VH020",
+        "callsign": "CONVOY-BUS-01",
+        "type": "TRUCK",
+        "capacity": 8000
+      },
+      "eta": "17 Sep, 14:00",
+      "progress": 60,
+      "created_at": "2026-09-18T17:35:19.794178+00:00"
+    },
+    {
+      "id": "MS-044",
+      "mission_id": "MS-044",
+      "title": "Medicine Kits to Tura",
+      "status": "PENDING",
+      "delay_reason": "Pending approval for route change",
+      "priority": "HIGH",
+      "request_id": "SR-015",
+      "warehouse_id": "WH01",
+      "vehicle_id": "VH021",
+      "route_id": "R2",
+      "origin": {
+        "warehouse_id": "WH01",
+        "name": "Guwahati Central Strategic Hub",
+        "lat": 26.14,
+        "lng": 91.73
+      },
+      "destination": {
+        "habitation_id": "HAB003",
+        "name": "Tura Civil Hospital",
+        "lat": 25.52,
+        "lng": 90.22
+      },
+      "resources": [
+        {
+          "resource_type": "MEDICINE",
+          "quantity": 2000,
+          "unit": "units"
+        }
+      ],
+      "vehicle": {
+        "id": "VH021",
+        "callsign": "CONVOY-BUS-02",
+        "type": "4X4_LIGHT",
+        "capacity": 2000
+      },
+      "eta": "16 Sep, 20:00",
+      "progress": 10,
+      "created_at": "2026-09-18T17:35:19.794178+00:00"
+    },
+    {
+      "id": "MIS001",
+      "mission_id": "MIS001",
+      "title": "Emergency Rations to Harangajao",
+      "status": "APPROVED",
+      "priority": "CRITICAL",
+      "request_id": "REQ001",
+      "warehouse_id": "WH01",
+      "vehicle_id": "VH017",
+      "route_id": "R2",
+      "origin": {
+        "warehouse_id": "WH01",
+        "name": "Relief Depot A",
+        "lat": 25.185,
+        "lng": 93.025
+      },
+      "destination": {
+        "habitation_id": "HAB001",
+        "name": "Village A",
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "resources": [
+        {
+          "resource_type": "WATER",
+          "quantity": 5000,
+          "unit": "LITRE"
+        }
+      ],
+      "vehicle": {
+        "id": "VH017",
+        "type": "TRUCK",
+        "capacity": 5000
+      },
+      "route": {
+        "id": "R2",
+        "distance_km": 205,
+        "eta_min": 325,
+        "risk_score": 24
+      },
+      "eta": "2026-09-16T14:30:00Z",
+      "risk_score": 42,
+      "progress": 67,
+      "active_alerts": [],
+      "replanning_status": "NONE",
+      "created_at": "2026-09-18T17:35:19.794178+00:00",
+      "started_at": "2026-09-18T17:35:19.794178+00:00",
+      "approved_by": "USR-NER-DIST-001",
+      "approved_at": "2026-09-19T14:34:41.691431+00:00"
+    },
+    {
+      "id": "MIS007",
+      "status": "DELIVERED",
+      "request_id": "REQ009",
+      "warehouse_id": "WH01",
+      "vehicle_id": "VH017",
+      "route_id": "R2",
+      "origin": {
+        "warehouse_id": "WH01",
+        "name": "Relief Depot"
+      },
+      "destination": {
+        "habitation_id": "HAB001",
+        "name": "Village A"
+      },
+      "resources": [
+        {
+          "resource_type": "WATER",
+          "quantity": 5000
+        }
+      ],
+      "vehicle": {
+        "id": "VH017",
+        "type": "TRUCK"
+      },
+      "route": {
+        "id": "R2",
+        "name": "BRO Old Mahur Bypass",
+        "distance_km": 205,
+        "eta_min": 325,
+        "risk_score": 24
+      },
+      "eta": "2026-09-17T12:00:00Z",
+      "risk_score": 38,
+      "progress": 0,
+      "active_alerts": [],
+      "replanning_status": "REPLANNED",
+      "created_at": "2026-09-18T17:36:20.093532+00:00",
+      "approved_by": "USR-NER-DIST-001",
+      "approved_at": "2026-09-18T17:36:20.096033+00:00",
+      "started_at": "2026-09-18T17:36:20.101280+00:00",
+      "completed_at": "2026-09-18T17:36:20.113696+00:00",
+      "delivery_confirmed": true
+    },
+    {
+      "id": "MIS008",
+      "status": "DELIVERED",
+      "request_id": "REQ010",
+      "warehouse_id": "WH01",
+      "vehicle_id": "VH017",
+      "route_id": "R2",
+      "origin": {
+        "warehouse_id": "WH01",
+        "name": "Relief Depot"
+      },
+      "destination": {
+        "habitation_id": "HAB001",
+        "name": "Village A"
+      },
+      "resources": [
+        {
+          "resource_type": "WATER",
+          "quantity": 5000
+        }
+      ],
+      "vehicle": {
+        "id": "VH017",
+        "type": "TRUCK"
+      },
+      "route": {
+        "id": "R2",
+        "name": "BRO Old Mahur Bypass",
+        "distance_km": 205,
+        "eta_min": 325,
+        "risk_score": 24
+      },
+      "eta": "2026-09-17T12:00:00Z",
+      "risk_score": 38,
+      "progress": 0,
+      "active_alerts": [],
+      "replanning_status": "REPLANNED",
+      "created_at": "2026-09-18T18:06:01.562599+00:00",
+      "approved_by": "USR-NER-DIST-001",
+      "approved_at": "2026-09-18T18:06:01.565967+00:00",
+      "started_at": "2026-09-18T18:06:01.570992+00:00",
+      "completed_at": "2026-09-18T18:06:01.583831+00:00",
+      "delivery_confirmed": true
+    },
+    {
+      "id": "MIS009",
+      "status": "DELIVERED",
+      "request_id": "REQ011",
+      "warehouse_id": "WH01",
+      "vehicle_id": "VH017",
+      "route_id": "R2",
+      "origin": {
+        "warehouse_id": "WH01",
+        "name": "Relief Depot"
+      },
+      "destination": {
+        "habitation_id": "HAB001",
+        "name": "Village A"
+      },
+      "resources": [
+        {
+          "resource_type": "WATER",
+          "quantity": 5000
+        }
+      ],
+      "vehicle": {
+        "id": "VH017",
+        "type": "TRUCK"
+      },
+      "route": {
+        "id": "R2",
+        "name": "BRO Old Mahur Bypass",
+        "distance_km": 205,
+        "eta_min": 325,
+        "risk_score": 24
+      },
+      "eta": "2026-09-17T12:00:00Z",
+      "risk_score": 38,
+      "progress": 0,
+      "active_alerts": [],
+      "replanning_status": "REPLANNED",
+      "created_at": "2026-09-19T15:30:31.879417+00:00",
+      "approved_by": "USR-NER-DIST-001",
+      "approved_at": "2026-09-19T15:30:31.881977+00:00",
+      "started_at": "2026-09-19T15:30:31.887031+00:00",
+      "completed_at": "2026-09-19T15:30:31.900541+00:00",
+      "delivery_confirmed": true
+    },
+    {
+      "id": "MIS010",
+      "status": "DELIVERED",
+      "request_id": "REQ012",
+      "warehouse_id": "WH01",
+      "vehicle_id": "VH017",
+      "route_id": "R2",
+      "origin": {
+        "warehouse_id": "WH01",
+        "name": "Relief Depot"
+      },
+      "destination": {
+        "habitation_id": "HAB001",
+        "name": "Village A"
+      },
+      "resources": [
+        {
+          "resource_type": "WATER",
+          "quantity": 5000
+        }
+      ],
+      "vehicle": {
+        "id": "VH017",
+        "type": "TRUCK"
+      },
+      "route": {
+        "id": "R2",
+        "name": "BRO Old Mahur Bypass",
+        "distance_km": 205,
+        "eta_min": 325,
+        "risk_score": 24
+      },
+      "eta": "2026-09-17T12:00:00Z",
+      "risk_score": 38,
+      "progress": 0,
+      "active_alerts": [],
+      "replanning_status": "REPLANNED",
+      "created_at": "2026-09-19T15:30:45.475163+00:00",
+      "approved_by": "USR-NER-DIST-001",
+      "approved_at": "2026-09-19T15:30:45.477845+00:00",
+      "started_at": "2026-09-19T15:30:45.482843+00:00",
+      "completed_at": "2026-09-19T15:30:45.495561+00:00",
+      "delivery_confirmed": true
+    },
+    {
+      "id": "MIS011",
+      "status": "DELIVERED",
+      "request_id": "SR-031",
+      "warehouse_id": "WH01",
+      "vehicle_id": "VH017",
+      "route_id": "R2",
+      "origin": {
+        "warehouse_id": "WH01",
+        "name": "Relief Depot"
+      },
+      "destination": {
+        "habitation_id": "HAB001",
+        "name": "Village A"
+      },
+      "resources": [
+        {
+          "resource_type": "WATER",
+          "quantity": 5000
+        }
+      ],
+      "vehicle": {
+        "id": "VH017",
+        "type": "TRUCK"
+      },
+      "route": {
+        "id": "R2",
+        "name": "BRO Old Mahur Bypass",
+        "distance_km": 205,
+        "eta_min": 325,
+        "risk_score": 24
+      },
+      "eta": "2026-09-17T12:00:00Z",
+      "risk_score": 38,
+      "progress": 0,
+      "active_alerts": [],
+      "replanning_status": "REPLANNED",
+      "created_at": "2026-09-19T17:07:02.339231+00:00",
+      "approved_by": "USR-NER-DIST-001",
+      "approved_at": "2026-09-19T17:07:02.342055+00:00",
+      "started_at": "2026-09-19T17:07:02.348392+00:00",
+      "completed_at": "2026-09-19T17:07:02.362621+00:00",
+      "delivery_confirmed": true
+    },
+    {
+      "id": "MIS012",
+      "status": "DELIVERED",
+      "request_id": "SR-032",
+      "warehouse_id": "WH01",
+      "vehicle_id": "VH017",
+      "route_id": "R2",
+      "origin": {
+        "warehouse_id": "WH01",
+        "name": "Relief Depot"
+      },
+      "destination": {
+        "habitation_id": "HAB001",
+        "name": "Village A"
+      },
+      "resources": [
+        {
+          "resource_type": "WATER",
+          "quantity": 5000
+        }
+      ],
+      "vehicle": {
+        "id": "VH017",
+        "type": "TRUCK"
+      },
+      "route": {
+        "id": "R2",
+        "name": "BRO Old Mahur Bypass",
+        "distance_km": 205,
+        "eta_min": 325,
+        "risk_score": 24
+      },
+      "eta": "2026-09-17T12:00:00Z",
+      "risk_score": 38,
+      "progress": 0,
+      "active_alerts": [],
+      "replanning_status": "REPLANNED",
+      "created_at": "2026-09-19T17:10:06.259669+00:00",
+      "approved_by": "USR-NER-DIST-001",
+      "approved_at": "2026-09-19T17:10:06.262988+00:00",
+      "started_at": "2026-09-19T17:10:06.268671+00:00",
+      "completed_at": "2026-09-19T17:10:06.286614+00:00",
+      "delivery_confirmed": true
+    },
+    {
+      "id": "MIS013",
+      "status": "DELIVERED",
+      "request_id": "SR-033",
+      "warehouse_id": "WH01",
+      "vehicle_id": "VH017",
+      "route_id": "R2",
+      "origin": {
+        "warehouse_id": "WH01",
+        "name": "Relief Depot"
+      },
+      "destination": {
+        "habitation_id": "HAB001",
+        "name": "Village A"
+      },
+      "resources": [
+        {
+          "resource_type": "WATER",
+          "quantity": 5000
+        }
+      ],
+      "vehicle": {
+        "id": "VH017",
+        "type": "TRUCK"
+      },
+      "route": {
+        "id": "R2",
+        "name": "BRO Old Mahur Bypass",
+        "distance_km": 205,
+        "eta_min": 325,
+        "risk_score": 24
+      },
+      "eta": "2026-09-17T12:00:00Z",
+      "risk_score": 38,
+      "progress": 0,
+      "active_alerts": [],
+      "replanning_status": "REPLANNED",
+      "created_at": "2026-09-19T17:15:50.269542+00:00",
+      "approved_by": "USR-NER-DIST-001",
+      "approved_at": "2026-09-19T17:15:50.272429+00:00",
+      "started_at": "2026-09-19T17:15:50.278341+00:00",
+      "completed_at": "2026-09-19T17:15:50.292688+00:00",
+      "delivery_confirmed": true
+    },
+    {
+      "id": "MIS014",
+      "status": "DELIVERED",
+      "request_id": "SR-034",
+      "warehouse_id": "WH01",
+      "vehicle_id": "VH017",
+      "route_id": "R2",
+      "origin": {
+        "warehouse_id": "WH01",
+        "name": "Relief Depot"
+      },
+      "destination": {
+        "habitation_id": "HAB001",
+        "name": "Village A"
+      },
+      "resources": [
+        {
+          "resource_type": "WATER",
+          "quantity": 5000
+        }
+      ],
+      "vehicle": {
+        "id": "VH017",
+        "type": "TRUCK"
+      },
+      "route": {
+        "id": "R2",
+        "name": "BRO Old Mahur Bypass",
+        "distance_km": 205,
+        "eta_min": 325,
+        "risk_score": 24
+      },
+      "eta": "2026-09-17T12:00:00Z",
+      "risk_score": 38,
+      "progress": 0,
+      "active_alerts": [],
+      "replanning_status": "REPLANNED",
+      "created_at": "2026-09-19T17:23:14.821393+00:00",
+      "approved_by": "USR-NER-DIST-001",
+      "approved_at": "2026-09-19T17:23:14.824453+00:00",
+      "started_at": "2026-09-19T17:23:14.830174+00:00",
+      "completed_at": "2026-09-19T17:23:14.845341+00:00",
+      "delivery_confirmed": true
+    },
+    {
+      "id": "MIS015",
+      "status": "DELIVERED",
+      "request_id": "SR-035",
+      "warehouse_id": "WH01",
+      "vehicle_id": "VH017",
+      "route_id": "R2",
+      "origin": {
+        "warehouse_id": "WH01",
+        "name": "Relief Depot"
+      },
+      "destination": {
+        "habitation_id": "HAB001",
+        "name": "Village A"
+      },
+      "resources": [
+        {
+          "resource_type": "WATER",
+          "quantity": 5000
+        }
+      ],
+      "vehicle": {
+        "id": "VH017",
+        "type": "TRUCK"
+      },
+      "route": {
+        "id": "R2",
+        "name": "BRO Old Mahur Bypass",
+        "distance_km": 205,
+        "eta_min": 325,
+        "risk_score": 24
+      },
+      "eta": "2026-09-17T12:00:00Z",
+      "risk_score": 38,
+      "progress": 0,
+      "active_alerts": [],
+      "replanning_status": "REPLANNED",
+      "created_at": "2026-09-19T17:25:41.261091+00:00",
+      "approved_by": "USR-NER-DIST-001",
+      "approved_at": "2026-09-19T17:25:41.264487+00:00",
+      "started_at": "2026-09-19T17:25:41.271279+00:00",
+      "completed_at": "2026-09-19T17:25:41.287478+00:00",
+      "delivery_confirmed": true
+    },
+    {
+      "id": "MIS016",
+      "status": "DELIVERED",
+      "request_id": "SR-036",
+      "warehouse_id": "WH01",
+      "vehicle_id": "VH017",
+      "route_id": "R2",
+      "origin": {
+        "warehouse_id": "WH01",
+        "name": "Relief Depot"
+      },
+      "destination": {
+        "habitation_id": "HAB001",
+        "name": "Village A"
+      },
+      "resources": [
+        {
+          "resource_type": "WATER",
+          "quantity": 5000
+        }
+      ],
+      "vehicle": {
+        "id": "VH017",
+        "type": "TRUCK"
+      },
+      "route": {
+        "id": "R2",
+        "name": "BRO Old Mahur Bypass",
+        "distance_km": 205,
+        "eta_min": 325,
+        "risk_score": 24
+      },
+      "eta": "2026-09-17T12:00:00Z",
+      "risk_score": 38,
+      "progress": 0,
+      "active_alerts": [],
+      "replanning_status": "REPLANNED",
+      "created_at": "2026-09-19T17:26:29.478393+00:00",
+      "approved_by": "USR-NER-DIST-001",
+      "approved_at": "2026-09-19T17:26:29.481570+00:00",
+      "started_at": "2026-09-19T17:26:29.488182+00:00",
+      "completed_at": "2026-09-19T17:26:29.503656+00:00",
+      "delivery_confirmed": true
+    },
+    {
+      "id": "MIS017",
+      "status": "DELIVERED",
+      "request_id": "SR-037",
+      "warehouse_id": "WH01",
+      "vehicle_id": "VH017",
+      "route_id": "R2",
+      "origin": {
+        "warehouse_id": "WH01",
+        "name": "Relief Depot"
+      },
+      "destination": {
+        "habitation_id": "HAB001",
+        "name": "Village A"
+      },
+      "resources": [
+        {
+          "resource_type": "WATER",
+          "quantity": 5000
+        }
+      ],
+      "vehicle": {
+        "id": "VH017",
+        "type": "TRUCK"
+      },
+      "route": {
+        "id": "R2",
+        "name": "BRO Old Mahur Bypass",
+        "distance_km": 205,
+        "eta_min": 325,
+        "risk_score": 24
+      },
+      "eta": "2026-09-17T12:00:00Z",
+      "risk_score": 38,
+      "progress": 0,
+      "active_alerts": [],
+      "replanning_status": "REPLANNED",
+      "created_at": "2026-09-19T17:27:21.865228+00:00",
+      "approved_by": "USR-NER-DIST-001",
+      "approved_at": "2026-09-19T17:27:21.868777+00:00",
+      "started_at": "2026-09-19T17:27:21.877043+00:00",
+      "completed_at": "2026-09-19T17:27:21.893925+00:00",
+      "delivery_confirmed": true
+    },
+    {
+      "id": "MIS018",
+      "status": "DELIVERED",
+      "request_id": "SR-038",
+      "warehouse_id": "WH01",
+      "vehicle_id": "VH017",
+      "route_id": "R2",
+      "origin": {
+        "warehouse_id": "WH01",
+        "name": "Relief Depot"
+      },
+      "destination": {
+        "habitation_id": "HAB001",
+        "name": "Village A"
+      },
+      "resources": [
+        {
+          "resource_type": "WATER",
+          "quantity": 5000
+        }
+      ],
+      "vehicle": {
+        "id": "VH017",
+        "type": "TRUCK"
+      },
+      "route": {
+        "id": "R2",
+        "name": "BRO Old Mahur Bypass",
+        "distance_km": 205,
+        "eta_min": 325,
+        "risk_score": 24
+      },
+      "eta": "2026-09-17T12:00:00Z",
+      "risk_score": 38,
+      "progress": 0,
+      "active_alerts": [],
+      "replanning_status": "REPLANNED",
+      "created_at": "2026-09-19T17:27:59.501337+00:00",
+      "approved_by": "USR-NER-DIST-001",
+      "approved_at": "2026-09-19T17:27:59.504665+00:00",
+      "started_at": "2026-09-19T17:27:59.513132+00:00",
+      "completed_at": "2026-09-19T17:27:59.529537+00:00",
+      "delivery_confirmed": true
+    },
+    {
+      "id": "MIS019",
+      "status": "DELIVERED",
+      "request_id": "SR-039",
+      "warehouse_id": "WH01",
+      "vehicle_id": "VH017",
+      "route_id": "R2",
+      "origin": {
+        "warehouse_id": "WH01",
+        "name": "Relief Depot"
+      },
+      "destination": {
+        "habitation_id": "HAB001",
+        "name": "Village A"
+      },
+      "resources": [
+        {
+          "resource_type": "WATER",
+          "quantity": 5000
+        }
+      ],
+      "vehicle": {
+        "id": "VH017",
+        "type": "TRUCK"
+      },
+      "route": {
+        "id": "R2",
+        "name": "BRO Old Mahur Bypass",
+        "distance_km": 205,
+        "eta_min": 325,
+        "risk_score": 24
+      },
+      "eta": "2026-09-17T12:00:00Z",
+      "risk_score": 38,
+      "progress": 0,
+      "active_alerts": [],
+      "replanning_status": "REPLANNED",
+      "created_at": "2026-09-19T17:30:13.371302+00:00",
+      "approved_by": "USR-NER-DIST-001",
+      "approved_at": "2026-09-19T17:30:13.374864+00:00",
+      "started_at": "2026-09-19T17:30:13.382001+00:00",
+      "completed_at": "2026-09-19T17:30:13.398866+00:00",
+      "delivery_confirmed": true
+    },
+    {
+      "id": "MIS020",
+      "status": "DELIVERED",
+      "request_id": "SR-040",
+      "warehouse_id": "WH01",
+      "vehicle_id": "VH017",
+      "route_id": "R2",
+      "origin": {
+        "warehouse_id": "WH01",
+        "name": "Relief Depot"
+      },
+      "destination": {
+        "habitation_id": "HAB001",
+        "name": "Village A"
+      },
+      "resources": [
+        {
+          "resource_type": "WATER",
+          "quantity": 5000
+        }
+      ],
+      "vehicle": {
+        "id": "VH017",
+        "type": "TRUCK"
+      },
+      "route": {
+        "id": "R2",
+        "name": "BRO Old Mahur Bypass",
+        "distance_km": 205,
+        "eta_min": 325,
+        "risk_score": 24
+      },
+      "eta": "2026-09-17T12:00:00Z",
+      "risk_score": 38,
+      "progress": 0,
+      "active_alerts": [],
+      "replanning_status": "REPLANNED",
+      "created_at": "2026-09-19T18:17:24.867187+00:00",
+      "approved_by": "USR-NER-DIST-001",
+      "approved_at": "2026-09-19T18:17:24.870720+00:00",
+      "started_at": "2026-09-19T18:17:24.878068+00:00",
+      "completed_at": "2026-09-19T18:17:24.896908+00:00",
+      "delivery_confirmed": true
+    },
+    {
+      "id": "MIS021",
+      "status": "DELIVERED",
+      "request_id": "SR-041",
+      "warehouse_id": "WH01",
+      "vehicle_id": "VH017",
+      "route_id": "R2",
+      "origin": {
+        "warehouse_id": "WH01",
+        "name": "Relief Depot"
+      },
+      "destination": {
+        "habitation_id": "HAB001",
+        "name": "Village A"
+      },
+      "resources": [
+        {
+          "resource_type": "WATER",
+          "quantity": 5000
+        }
+      ],
+      "vehicle": {
+        "id": "VH017",
+        "type": "TRUCK"
+      },
+      "route": {
+        "id": "R2",
+        "name": "BRO Old Mahur Bypass",
+        "distance_km": 205,
+        "eta_min": 325,
+        "risk_score": 24
+      },
+      "eta": "2026-09-17T12:00:00Z",
+      "risk_score": 38,
+      "progress": 0,
+      "active_alerts": [],
+      "replanning_status": "REPLANNED",
+      "created_at": "2026-09-20T12:30:48.128815+00:00",
+      "approved_by": "USR-NER-DIST-001",
+      "approved_at": "2026-09-20T12:30:48.132300+00:00",
+      "started_at": "2026-09-20T12:30:48.139060+00:00",
+      "completed_at": "2026-09-20T12:30:48.155426+00:00",
+      "delivery_confirmed": true
+    }
+  ],
+  "routes_catalog": [
+    {
+      "id": "R1",
+      "route_id": "R1",
+      "name": "NH-27 Primary Corridor",
+      "distance_km": 180,
+      "eta_min": 290,
+      "risk_score": 62,
+      "confidence": 0.85,
+      "status": "BLOCKED",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            93.025,
+            25.185
+          ],
+          [
+            93.1,
+            25.25
+          ],
+          [
+            93.2,
+            25.4
+          ]
+        ]
+      },
+      "segments": [
+        {
+          "segment_id": "SEG_01",
+          "road": "NH-27",
+          "distance_km": 45,
+          "status": "CLEAR"
+        },
+        {
+          "segment_id": "SEG_02",
+          "road": "NH-27",
+          "distance_km": 20,
+          "status": "BLOCKED",
+          "reason": "Landslide active"
+        }
+      ],
+      "warnings": [
+        "Active landslide reported at km 65"
+      ]
+    },
+    {
+      "id": "R2",
+      "route_id": "R2",
+      "name": "BRO Old Mahur Bypass Corridor",
+      "distance_km": 205,
+      "eta_min": 325,
+      "risk_score": 24,
+      "confidence": 0.91,
+      "status": "FEASIBLE",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            93.025,
+            25.185
+          ],
+          [
+            93.05,
+            25.3
+          ],
+          [
+            93.2,
+            25.4
+          ]
+        ]
+      },
+      "segments": [
+        {
+          "segment_id": "SEG_03",
+          "road": "BRO-Mahur",
+          "distance_km": 110,
+          "status": "CLEAR"
+        },
+        {
+          "segment_id": "SEG_04",
+          "road": "SH-14",
+          "distance_km": 95,
+          "status": "CLEAR"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "R3",
+      "route_id": "R3",
+      "name": "Umrangso Southern Spur",
+      "distance_km": 194,
+      "eta_min": 315,
+      "risk_score": 37,
+      "confidence": 0.88,
+      "status": "FEASIBLE",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            93.025,
+            25.185
+          ],
+          [
+            92.95,
+            25.35
+          ],
+          [
+            93.2,
+            25.4
+          ]
+        ]
+      },
+      "segments": [
+        {
+          "segment_id": "SEG_05",
+          "road": "SH-19",
+          "distance_km": 194,
+          "status": "CLEAR"
+        }
+      ],
+      "warnings": [
+        "Single lane stretch across Umrangso bridge"
+      ]
+    }
+  ],
+  "replanning_cases": [
+    {
+      "id": "RP001",
+      "replanning_id": "RP001",
+      "mission_id": "MIS001",
+      "status": "PENDING_APPROVAL",
+      "current_plan": {
+        "route_id": "R1",
+        "vehicle_id": "VH017",
+        "eta": "2026-09-16T13:30:00Z"
+      },
+      "recommended_plan": {
+        "route": {
+          "id": "R2",
+          "name": "BRO Old Mahur Bypass",
+          "distance_km": 205,
+          "eta_min": 325
+        },
+        "vehicle": {
+          "id": "VH018",
+          "type": "4X4_LIGHT"
+        },
+        "resources": {
+          "WATER": 5000
+        },
+        "eta": "2026-09-16T14:45:00Z"
+      },
+      "alternatives": [
+        {
+          "id": "R3",
+          "eta_min": 315,
+          "risk_score": 37
+        }
+      ],
+      "reason": "Primary road became impassable due to landslide",
+      "impact": {
+        "delay_min": 42,
+        "risk_change": -18
+      },
+      "evidence": [
+        "NH-27 km 65 blocked by 200m mudslide",
+        "BRO bypass inspected and cleared for 4x4 convoys"
+      ],
+      "requires_approval": true,
+      "approved_by": null,
+      "created_at": "2026-09-18T17:35:19.794178+00:00"
+    },
+    {
+      "id": "RP002",
+      "replanning_id": "RP002",
+      "mission_id": "MIS007",
+      "current_plan": {
+        "route_id": "R1",
+        "vehicle_id": "VH017",
+        "eta": "2026-09-16T13:30:00Z"
+      },
+      "recommended_plan": {
+        "route": {
+          "id": "R2",
+          "name": "BRO Old Mahur Bypass",
+          "distance_km": 205,
+          "eta_min": 325
+        },
+        "vehicle": {
+          "id": "VH018",
+          "type": "4X4_LIGHT"
+        },
+        "resources": {
+          "WATER": 5000
+        },
+        "eta": "2026-09-16T14:45:00Z"
+      },
+      "alternatives": [
+        {
+          "id": "R3",
+          "eta_min": 315,
+          "risk_score": 37
+        }
+      ],
+      "reason": "Primary road became impassable due to landslide",
+      "impact": {
+        "delay_min": 42,
+        "risk_change": -18
+      },
+      "evidence": [
+        "NH-27 mudslide report",
+        "BRO bypass reconnaissance confirmed clear"
+      ],
+      "requires_approval": true,
+      "status": "APPROVED",
+      "approved_by": "USR-NER-DIST-001",
+      "created_at": "2026-09-18T17:36:20.107520+00:00"
+    },
+    {
+      "id": "RP003",
+      "replanning_id": "RP003",
+      "mission_id": "MIS008",
+      "current_plan": {
+        "route_id": "R1",
+        "vehicle_id": "VH017",
+        "eta": "2026-09-16T13:30:00Z"
+      },
+      "recommended_plan": {
+        "route": {
+          "id": "R2",
+          "name": "BRO Old Mahur Bypass",
+          "distance_km": 205,
+          "eta_min": 325
+        },
+        "vehicle": {
+          "id": "VH018",
+          "type": "4X4_LIGHT"
+        },
+        "resources": {
+          "WATER": 5000
+        },
+        "eta": "2026-09-16T14:45:00Z"
+      },
+      "alternatives": [
+        {
+          "id": "R3",
+          "eta_min": 315,
+          "risk_score": 37
+        }
+      ],
+      "reason": "Primary road became impassable due to landslide",
+      "impact": {
+        "delay_min": 42,
+        "risk_change": -18
+      },
+      "evidence": [
+        "NH-27 mudslide report",
+        "BRO bypass reconnaissance confirmed clear"
+      ],
+      "requires_approval": true,
+      "status": "APPROVED",
+      "approved_by": "USR-NER-DIST-001",
+      "created_at": "2026-09-18T18:06:01.577830+00:00"
+    },
+    {
+      "id": "RP004",
+      "replanning_id": "RP004",
+      "mission_id": "MIS009",
+      "current_plan": {
+        "route_id": "R1",
+        "vehicle_id": "VH017",
+        "eta": "2026-09-16T13:30:00Z"
+      },
+      "recommended_plan": {
+        "route": {
+          "id": "R2",
+          "name": "BRO Old Mahur Bypass",
+          "distance_km": 205,
+          "eta_min": 325
+        },
+        "vehicle": {
+          "id": "VH018",
+          "type": "4X4_LIGHT"
+        },
+        "resources": {
+          "WATER": 5000
+        },
+        "eta": "2026-09-16T14:45:00Z"
+      },
+      "alternatives": [
+        {
+          "id": "R3",
+          "eta_min": 315,
+          "risk_score": 37
+        }
+      ],
+      "reason": "Primary road became impassable due to landslide",
+      "impact": {
+        "delay_min": 42,
+        "risk_change": -18
+      },
+      "evidence": [
+        "NH-27 mudslide report",
+        "BRO bypass reconnaissance confirmed clear"
+      ],
+      "requires_approval": true,
+      "status": "APPROVED",
+      "approved_by": "USR-NER-DIST-001",
+      "created_at": "2026-09-19T15:30:31.893700+00:00"
+    },
+    {
+      "id": "RP005",
+      "replanning_id": "RP005",
+      "mission_id": "MIS010",
+      "current_plan": {
+        "route_id": "R1",
+        "vehicle_id": "VH017",
+        "eta": "2026-09-16T13:30:00Z"
+      },
+      "recommended_plan": {
+        "route": {
+          "id": "R2",
+          "name": "BRO Old Mahur Bypass",
+          "distance_km": 205,
+          "eta_min": 325
+        },
+        "vehicle": {
+          "id": "VH018",
+          "type": "4X4_LIGHT"
+        },
+        "resources": {
+          "WATER": 5000
+        },
+        "eta": "2026-09-16T14:45:00Z"
+      },
+      "alternatives": [
+        {
+          "id": "R3",
+          "eta_min": 315,
+          "risk_score": 37
+        }
+      ],
+      "reason": "Primary road became impassable due to landslide",
+      "impact": {
+        "delay_min": 42,
+        "risk_change": -18
+      },
+      "evidence": [
+        "NH-27 mudslide report",
+        "BRO bypass reconnaissance confirmed clear"
+      ],
+      "requires_approval": true,
+      "status": "APPROVED",
+      "approved_by": "USR-NER-DIST-001",
+      "created_at": "2026-09-19T15:30:45.489415+00:00"
+    },
+    {
+      "id": "RP006",
+      "replanning_id": "RP006",
+      "mission_id": "MIS011",
+      "current_plan": {
+        "route_id": "R1",
+        "vehicle_id": "VH017",
+        "eta": "2026-09-16T13:30:00Z"
+      },
+      "recommended_plan": {
+        "route": {
+          "id": "R2",
+          "name": "BRO Old Mahur Bypass",
+          "distance_km": 205,
+          "eta_min": 325
+        },
+        "vehicle": {
+          "id": "VH018",
+          "type": "4X4_LIGHT"
+        },
+        "resources": {
+          "WATER": 5000
+        },
+        "eta": "2026-09-16T14:45:00Z"
+      },
+      "alternatives": [
+        {
+          "id": "R3",
+          "eta_min": 315,
+          "risk_score": 37
+        }
+      ],
+      "reason": "Primary road became impassable due to landslide",
+      "impact": {
+        "delay_min": 42,
+        "risk_change": -18
+      },
+      "evidence": [
+        "NH-27 mudslide report",
+        "BRO bypass reconnaissance confirmed clear"
+      ],
+      "requires_approval": true,
+      "status": "APPROVED",
+      "approved_by": "USR-NER-DIST-001",
+      "created_at": "2026-09-19T17:07:02.355607+00:00"
+    },
+    {
+      "id": "RP007",
+      "replanning_id": "RP007",
+      "mission_id": "MIS012",
+      "current_plan": {
+        "route_id": "R1",
+        "vehicle_id": "VH017",
+        "eta": "2026-09-16T13:30:00Z"
+      },
+      "recommended_plan": {
+        "route": {
+          "id": "R2",
+          "name": "BRO Old Mahur Bypass",
+          "distance_km": 205,
+          "eta_min": 325
+        },
+        "vehicle": {
+          "id": "VH018",
+          "type": "4X4_LIGHT"
+        },
+        "resources": {
+          "WATER": 5000
+        },
+        "eta": "2026-09-16T14:45:00Z"
+      },
+      "alternatives": [
+        {
+          "id": "R3",
+          "eta_min": 315,
+          "risk_score": 37
+        }
+      ],
+      "reason": "Primary road became impassable due to landslide",
+      "impact": {
+        "delay_min": 42,
+        "risk_change": -18
+      },
+      "evidence": [
+        "NH-27 mudslide report",
+        "BRO bypass reconnaissance confirmed clear"
+      ],
+      "requires_approval": true,
+      "status": "APPROVED",
+      "approved_by": "USR-NER-DIST-001",
+      "created_at": "2026-09-19T17:10:06.279741+00:00"
+    },
+    {
+      "id": "RP008",
+      "replanning_id": "RP008",
+      "mission_id": "MIS013",
+      "current_plan": {
+        "route_id": "R1",
+        "vehicle_id": "VH017",
+        "eta": "2026-09-16T13:30:00Z"
+      },
+      "recommended_plan": {
+        "route": {
+          "id": "R2",
+          "name": "BRO Old Mahur Bypass",
+          "distance_km": 205,
+          "eta_min": 325
+        },
+        "vehicle": {
+          "id": "VH018",
+          "type": "4X4_LIGHT"
+        },
+        "resources": {
+          "WATER": 5000
+        },
+        "eta": "2026-09-16T14:45:00Z"
+      },
+      "alternatives": [
+        {
+          "id": "R3",
+          "eta_min": 315,
+          "risk_score": 37
+        }
+      ],
+      "reason": "Primary road became impassable due to landslide",
+      "impact": {
+        "delay_min": 42,
+        "risk_change": -18
+      },
+      "evidence": [
+        "NH-27 mudslide report",
+        "BRO bypass reconnaissance confirmed clear"
+      ],
+      "requires_approval": true,
+      "status": "APPROVED",
+      "approved_by": "USR-NER-DIST-001",
+      "created_at": "2026-09-19T17:15:50.285923+00:00"
+    },
+    {
+      "id": "RP009",
+      "replanning_id": "RP009",
+      "mission_id": "MIS014",
+      "current_plan": {
+        "route_id": "R1",
+        "vehicle_id": "VH017",
+        "eta": "2026-09-16T13:30:00Z"
+      },
+      "recommended_plan": {
+        "route": {
+          "id": "R2",
+          "name": "BRO Old Mahur Bypass",
+          "distance_km": 205,
+          "eta_min": 325
+        },
+        "vehicle": {
+          "id": "VH018",
+          "type": "4X4_LIGHT"
+        },
+        "resources": {
+          "WATER": 5000
+        },
+        "eta": "2026-09-16T14:45:00Z"
+      },
+      "alternatives": [
+        {
+          "id": "R3",
+          "eta_min": 315,
+          "risk_score": 37
+        }
+      ],
+      "reason": "Primary road became impassable due to landslide",
+      "impact": {
+        "delay_min": 42,
+        "risk_change": -18
+      },
+      "evidence": [
+        "NH-27 mudslide report",
+        "BRO bypass reconnaissance confirmed clear"
+      ],
+      "requires_approval": true,
+      "status": "APPROVED",
+      "approved_by": "USR-NER-DIST-001",
+      "created_at": "2026-09-19T17:23:14.838297+00:00"
+    },
+    {
+      "id": "RP010",
+      "replanning_id": "RP010",
+      "mission_id": "MIS015",
+      "current_plan": {
+        "route_id": "R1",
+        "vehicle_id": "VH017",
+        "eta": "2026-09-16T13:30:00Z"
+      },
+      "recommended_plan": {
+        "route": {
+          "id": "R2",
+          "name": "BRO Old Mahur Bypass",
+          "distance_km": 205,
+          "eta_min": 325
+        },
+        "vehicle": {
+          "id": "VH018",
+          "type": "4X4_LIGHT"
+        },
+        "resources": {
+          "WATER": 5000
+        },
+        "eta": "2026-09-16T14:45:00Z"
+      },
+      "alternatives": [
+        {
+          "id": "R3",
+          "eta_min": 315,
+          "risk_score": 37
+        }
+      ],
+      "reason": "Primary road became impassable due to landslide",
+      "impact": {
+        "delay_min": 42,
+        "risk_change": -18
+      },
+      "evidence": [
+        "NH-27 mudslide report",
+        "BRO bypass reconnaissance confirmed clear"
+      ],
+      "requires_approval": true,
+      "status": "APPROVED",
+      "approved_by": "USR-NER-DIST-001",
+      "created_at": "2026-09-19T17:25:41.279119+00:00"
+    },
+    {
+      "id": "RP011",
+      "replanning_id": "RP011",
+      "mission_id": "MIS016",
+      "current_plan": {
+        "route_id": "R1",
+        "vehicle_id": "VH017",
+        "eta": "2026-09-16T13:30:00Z"
+      },
+      "recommended_plan": {
+        "route": {
+          "id": "R2",
+          "name": "BRO Old Mahur Bypass",
+          "distance_km": 205,
+          "eta_min": 325
+        },
+        "vehicle": {
+          "id": "VH018",
+          "type": "4X4_LIGHT"
+        },
+        "resources": {
+          "WATER": 5000
+        },
+        "eta": "2026-09-16T14:45:00Z"
+      },
+      "alternatives": [
+        {
+          "id": "R3",
+          "eta_min": 315,
+          "risk_score": 37
+        }
+      ],
+      "reason": "Primary road became impassable due to landslide",
+      "impact": {
+        "delay_min": 42,
+        "risk_change": -18
+      },
+      "evidence": [
+        "NH-27 mudslide report",
+        "BRO bypass reconnaissance confirmed clear"
+      ],
+      "requires_approval": true,
+      "status": "APPROVED",
+      "approved_by": "USR-NER-DIST-001",
+      "created_at": "2026-09-19T17:26:29.496547+00:00"
+    },
+    {
+      "id": "RP012",
+      "replanning_id": "RP012",
+      "mission_id": "MIS017",
+      "current_plan": {
+        "route_id": "R1",
+        "vehicle_id": "VH017",
+        "eta": "2026-09-16T13:30:00Z"
+      },
+      "recommended_plan": {
+        "route": {
+          "id": "R2",
+          "name": "BRO Old Mahur Bypass",
+          "distance_km": 205,
+          "eta_min": 325
+        },
+        "vehicle": {
+          "id": "VH018",
+          "type": "4X4_LIGHT"
+        },
+        "resources": {
+          "WATER": 5000
+        },
+        "eta": "2026-09-16T14:45:00Z"
+      },
+      "alternatives": [
+        {
+          "id": "R3",
+          "eta_min": 315,
+          "risk_score": 37
+        }
+      ],
+      "reason": "Primary road became impassable due to landslide",
+      "impact": {
+        "delay_min": 42,
+        "risk_change": -18
+      },
+      "evidence": [
+        "NH-27 mudslide report",
+        "BRO bypass reconnaissance confirmed clear"
+      ],
+      "requires_approval": true,
+      "status": "APPROVED",
+      "approved_by": "USR-NER-DIST-001",
+      "created_at": "2026-09-19T17:27:21.885861+00:00"
+    },
+    {
+      "id": "RP013",
+      "replanning_id": "RP013",
+      "mission_id": "MIS018",
+      "current_plan": {
+        "route_id": "R1",
+        "vehicle_id": "VH017",
+        "eta": "2026-09-16T13:30:00Z"
+      },
+      "recommended_plan": {
+        "route": {
+          "id": "R2",
+          "name": "BRO Old Mahur Bypass",
+          "distance_km": 205,
+          "eta_min": 325
+        },
+        "vehicle": {
+          "id": "VH018",
+          "type": "4X4_LIGHT"
+        },
+        "resources": {
+          "WATER": 5000
+        },
+        "eta": "2026-09-16T14:45:00Z"
+      },
+      "alternatives": [
+        {
+          "id": "R3",
+          "eta_min": 315,
+          "risk_score": 37
+        }
+      ],
+      "reason": "Primary road became impassable due to landslide",
+      "impact": {
+        "delay_min": 42,
+        "risk_change": -18
+      },
+      "evidence": [
+        "NH-27 mudslide report",
+        "BRO bypass reconnaissance confirmed clear"
+      ],
+      "requires_approval": true,
+      "status": "APPROVED",
+      "approved_by": "USR-NER-DIST-001",
+      "created_at": "2026-09-19T17:27:59.521568+00:00"
+    },
+    {
+      "id": "RP014",
+      "replanning_id": "RP014",
+      "mission_id": "MIS019",
+      "current_plan": {
+        "route_id": "R1",
+        "vehicle_id": "VH017",
+        "eta": "2026-09-16T13:30:00Z"
+      },
+      "recommended_plan": {
+        "route": {
+          "id": "R2",
+          "name": "BRO Old Mahur Bypass",
+          "distance_km": 205,
+          "eta_min": 325
+        },
+        "vehicle": {
+          "id": "VH018",
+          "type": "4X4_LIGHT"
+        },
+        "resources": {
+          "WATER": 5000
+        },
+        "eta": "2026-09-16T14:45:00Z"
+      },
+      "alternatives": [
+        {
+          "id": "R3",
+          "eta_min": 315,
+          "risk_score": 37
+        }
+      ],
+      "reason": "Primary road became impassable due to landslide",
+      "impact": {
+        "delay_min": 42,
+        "risk_change": -18
+      },
+      "evidence": [
+        "NH-27 mudslide report",
+        "BRO bypass reconnaissance confirmed clear"
+      ],
+      "requires_approval": true,
+      "status": "APPROVED",
+      "approved_by": "USR-NER-DIST-001",
+      "created_at": "2026-09-19T17:30:13.390674+00:00"
+    },
+    {
+      "id": "RP015",
+      "replanning_id": "RP015",
+      "mission_id": "MIS020",
+      "current_plan": {
+        "route_id": "R1",
+        "vehicle_id": "VH017",
+        "eta": "2026-09-16T13:30:00Z"
+      },
+      "recommended_plan": {
+        "route": {
+          "id": "R2",
+          "name": "BRO Old Mahur Bypass",
+          "distance_km": 205,
+          "eta_min": 325
+        },
+        "vehicle": {
+          "id": "VH018",
+          "type": "4X4_LIGHT"
+        },
+        "resources": {
+          "WATER": 5000
+        },
+        "eta": "2026-09-16T14:45:00Z"
+      },
+      "alternatives": [
+        {
+          "id": "R3",
+          "eta_min": 315,
+          "risk_score": 37
+        }
+      ],
+      "reason": "Primary road became impassable due to landslide",
+      "impact": {
+        "delay_min": 42,
+        "risk_change": -18
+      },
+      "evidence": [
+        "NH-27 mudslide report",
+        "BRO bypass reconnaissance confirmed clear"
+      ],
+      "requires_approval": true,
+      "status": "APPROVED",
+      "approved_by": "USR-NER-DIST-001",
+      "created_at": "2026-09-19T18:17:24.888633+00:00"
+    },
+    {
+      "id": "RP016",
+      "replanning_id": "RP016",
+      "mission_id": "MIS021",
+      "current_plan": {
+        "route_id": "R1",
+        "vehicle_id": "VH017",
+        "eta": "2026-09-16T13:30:00Z"
+      },
+      "recommended_plan": {
+        "route": {
+          "id": "R2",
+          "name": "BRO Old Mahur Bypass",
+          "distance_km": 205,
+          "eta_min": 325
+        },
+        "vehicle": {
+          "id": "VH018",
+          "type": "4X4_LIGHT"
+        },
+        "resources": {
+          "WATER": 5000
+        },
+        "eta": "2026-09-16T14:45:00Z"
+      },
+      "alternatives": [
+        {
+          "id": "R3",
+          "eta_min": 315,
+          "risk_score": 37
+        }
+      ],
+      "reason": "Primary road became impassable due to landslide",
+      "impact": {
+        "delay_min": 42,
+        "risk_change": -18
+      },
+      "evidence": [
+        "NH-27 mudslide report",
+        "BRO bypass reconnaissance confirmed clear"
+      ],
+      "requires_approval": true,
+      "status": "APPROVED",
+      "approved_by": "USR-NER-DIST-001",
+      "created_at": "2026-09-20T12:30:48.147618+00:00"
+    }
+  ],
+  "field_reports": [
+    {
+      "id": "FR-001",
+      "report_id": "FR-001",
+      "type": "ROAD_BLOCKAGE",
+      "title": "Road completely blocked near Jorhat",
+      "reporter": "Village volunteer",
+      "reporter_role": "Volunteer",
+      "location_name": "Jorhat, Assam",
+      "location": {
+        "lat": 26.75,
+        "lng": 94.22
+      },
+      "coordinates": {
+        "lat": 26.75,
+        "lng": 94.22
+      },
+      "time_ago": "12 min ago",
+      "severity": "CRITICAL",
+      "description": "Fallen trees and mudflow blocked state highway connecting Jorhat to Mariani.",
+      "evidence": [
+        "photo_jorhat_block.jpg"
+      ],
+      "photos": [],
+      "status": "PENDING_VERIFICATION",
+      "created_at": "2026-09-18T17:35:19.794178+00:00"
+    },
+    {
+      "id": "FR-002",
+      "report_id": "FR-002",
+      "type": "FLOODING",
+      "title": "Water level rising in Sonitpur",
+      "reporter": "Field Officer",
+      "reporter_role": "Field Officer",
+      "location_name": "Sonitpur, Assam",
+      "location": {
+        "lat": 26.65,
+        "lng": 92.8
+      },
+      "coordinates": {
+        "lat": 26.65,
+        "lng": 92.8
+      },
+      "time_ago": "36 min ago",
+      "severity": "HIGH",
+      "description": "Embankment seepage observed near Dhekiajuli sector. Water levels 1.2m above normal.",
+      "evidence": [
+        "photo_sonitpur_embankment.jpg"
+      ],
+      "photos": [],
+      "status": "VERIFIED",
+      "created_at": "2026-09-18T17:35:19.794178+00:00"
+    },
+    {
+      "id": "FR-003",
+      "report_id": "FR-003",
+      "type": "INFRASTRUCTURE",
+      "title": "Bridge structure damaged",
+      "reporter": "District Authority",
+      "reporter_role": "District Authority",
+      "location_name": "West Garo Hills, Meghalaya",
+      "location": {
+        "lat": 25.52,
+        "lng": 90.22
+      },
+      "coordinates": {
+        "lat": 25.52,
+        "lng": 90.22
+      },
+      "time_ago": "1 hour ago",
+      "severity": "HIGH",
+      "description": "Cracks and scouring on western bridge pier. Heavy vehicle crossing restricted.",
+      "evidence": [
+        "photo_bridge_pier.jpg"
+      ],
+      "photos": [],
+      "status": "VERIFIED",
+      "created_at": "2026-09-18T17:35:19.794178+00:00"
+    },
+    {
+      "id": "FR-004",
+      "report_id": "FR-004",
+      "type": "LANDSLIDE",
+      "title": "Landslide reported on NH-27",
+      "reporter": "Local Resident (Voice Report)",
+      "reporter_role": "Local Resident",
+      "location_name": "Dima Hasao, Assam",
+      "location": {
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "coordinates": {
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "time_ago": "2 hours ago",
+      "severity": "CRITICAL",
+      "description": "Massive hill slide blocked both lanes. 3 trucks stranded on eastern approach.",
+      "evidence": [
+        "photo_nh27_slide.jpg"
+      ],
+      "photos": [],
+      "status": "VERIFIED",
+      "created_at": "2026-09-18T17:35:19.794178+00:00"
+    },
+    {
+      "id": "FR005",
+      "type": "ROAD_BLOCKAGE",
+      "reporter": "USR-NER-DIST-001",
+      "location": {
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "severity": "CRITICAL",
+      "description": "Massive 200m mudslide across NH-27 near Harangajao gorge.",
+      "evidence": [
+        "recon_01.jpg"
+      ],
+      "photos": [
+        "recon_01.jpg"
+      ],
+      "status": "VERIFIED",
+      "incident_draft_id": "INC_DRAFT005",
+      "created_at": "2026-09-18T17:36:20.072573+00:00"
+    },
+    {
+      "id": "FR006",
+      "type": "ROAD_BLOCKAGE",
+      "reporter": "USR-NER-DIST-001",
+      "location": {
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "severity": "CRITICAL",
+      "description": "Massive 200m mudslide across NH-27 near Harangajao gorge.",
+      "evidence": [
+        "recon_01.jpg"
+      ],
+      "photos": [
+        "recon_01.jpg"
+      ],
+      "status": "VERIFIED",
+      "incident_draft_id": "INC_DRAFT006",
+      "created_at": "2026-09-18T18:06:01.529638+00:00"
+    },
+    {
+      "id": "FR007",
+      "type": "ROAD_BLOCKAGE",
+      "reporter": "USR-NER-DIST-001",
+      "location": {
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "severity": "CRITICAL",
+      "description": "Massive 200m mudslide across NH-27 near Harangajao gorge.",
+      "evidence": [
+        "recon_01.jpg"
+      ],
+      "photos": [
+        "recon_01.jpg"
+      ],
+      "status": "VERIFIED",
+      "incident_draft_id": "INC_DRAFT007",
+      "created_at": "2026-09-19T15:30:31.858143+00:00"
+    },
+    {
+      "id": "FR008",
+      "type": "ROAD_BLOCKAGE",
+      "reporter": "USR-NER-DIST-001",
+      "location": {
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "severity": "CRITICAL",
+      "description": "Massive 200m mudslide across NH-27 near Harangajao gorge.",
+      "evidence": [
+        "recon_01.jpg"
+      ],
+      "photos": [
+        "recon_01.jpg"
+      ],
+      "status": "VERIFIED",
+      "incident_draft_id": "INC_DRAFT008",
+      "created_at": "2026-09-19T15:30:45.451512+00:00"
+    },
+    {
+      "id": "FR009",
+      "type": "ROAD_BLOCKAGE",
+      "reporter": "USR-NER-DIST-001",
+      "location": {
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "severity": "CRITICAL",
+      "description": "Massive 200m mudslide across NH-27 near Harangajao gorge.",
+      "evidence": [
+        "recon_01.jpg"
+      ],
+      "photos": [
+        "recon_01.jpg"
+      ],
+      "status": "VERIFIED",
+      "incident_draft_id": "INC_DRAFT009",
+      "created_at": "2026-09-19T17:07:02.316485+00:00"
+    },
+    {
+      "id": "FR010",
+      "type": "ROAD_BLOCKAGE",
+      "reporter": "USR-NER-DIST-001",
+      "location": {
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "severity": "CRITICAL",
+      "description": "Massive 200m mudslide across NH-27 near Harangajao gorge.",
+      "evidence": [
+        "recon_01.jpg"
+      ],
+      "photos": [
+        "recon_01.jpg"
+      ],
+      "status": "VERIFIED",
+      "incident_draft_id": "INC_DRAFT010",
+      "created_at": "2026-09-19T17:10:06.236285+00:00"
+    },
+    {
+      "id": "FR011",
+      "type": "ROAD_BLOCKAGE",
+      "reporter": "USR-NER-DIST-001",
+      "location": {
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "severity": "CRITICAL",
+      "description": "Massive 200m mudslide across NH-27 near Harangajao gorge.",
+      "evidence": [
+        "recon_01.jpg"
+      ],
+      "photos": [
+        "recon_01.jpg"
+      ],
+      "status": "VERIFIED",
+      "incident_draft_id": "INC_DRAFT011",
+      "created_at": "2026-09-19T17:15:50.245526+00:00"
+    },
+    {
+      "id": "FR012",
+      "type": "ROAD_BLOCKAGE",
+      "reporter": "USR-NER-DIST-001",
+      "location": {
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "severity": "CRITICAL",
+      "description": "Massive 200m mudslide across NH-27 near Harangajao gorge.",
+      "evidence": [
+        "recon_01.jpg"
+      ],
+      "photos": [
+        "recon_01.jpg"
+      ],
+      "status": "VERIFIED",
+      "incident_draft_id": "INC_DRAFT012",
+      "created_at": "2026-09-19T17:23:14.797409+00:00"
+    },
+    {
+      "id": "FR013",
+      "type": "ROAD_BLOCKAGE",
+      "reporter": "USR-NER-DIST-001",
+      "location": {
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "severity": "CRITICAL",
+      "description": "Massive 200m mudslide across NH-27 near Harangajao gorge.",
+      "evidence": [
+        "recon_01.jpg"
+      ],
+      "photos": [
+        "recon_01.jpg"
+      ],
+      "status": "VERIFIED",
+      "incident_draft_id": "INC_DRAFT013",
+      "created_at": "2026-09-19T17:25:41.235593+00:00"
+    },
+    {
+      "id": "FR014",
+      "type": "ROAD_BLOCKAGE",
+      "reporter": "USR-NER-DIST-001",
+      "location": {
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "severity": "CRITICAL",
+      "description": "Massive 200m mudslide across NH-27 near Harangajao gorge.",
+      "evidence": [
+        "recon_01.jpg"
+      ],
+      "photos": [
+        "recon_01.jpg"
+      ],
+      "status": "VERIFIED",
+      "incident_draft_id": "INC_DRAFT014",
+      "created_at": "2026-09-19T17:26:29.452392+00:00"
+    },
+    {
+      "id": "FR015",
+      "type": "ROAD_BLOCKAGE",
+      "reporter": "USR-NER-DIST-001",
+      "location": {
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "severity": "CRITICAL",
+      "description": "Massive 200m mudslide across NH-27 near Harangajao gorge.",
+      "evidence": [
+        "recon_01.jpg"
+      ],
+      "photos": [
+        "recon_01.jpg"
+      ],
+      "status": "VERIFIED",
+      "incident_draft_id": "INC_DRAFT015",
+      "created_at": "2026-09-19T17:27:21.838801+00:00"
+    },
+    {
+      "id": "FR016",
+      "type": "ROAD_BLOCKAGE",
+      "reporter": "USR-NER-DIST-001",
+      "location": {
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "severity": "CRITICAL",
+      "description": "Massive 200m mudslide across NH-27 near Harangajao gorge.",
+      "evidence": [
+        "recon_01.jpg"
+      ],
+      "photos": [
+        "recon_01.jpg"
+      ],
+      "status": "VERIFIED",
+      "incident_draft_id": "INC_DRAFT016",
+      "created_at": "2026-09-19T17:27:59.474627+00:00"
+    },
+    {
+      "id": "FR017",
+      "type": "ROAD_BLOCKAGE",
+      "reporter": "USR-NER-DIST-001",
+      "location": {
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "severity": "CRITICAL",
+      "description": "Massive 200m mudslide across NH-27 near Harangajao gorge.",
+      "evidence": [
+        "recon_01.jpg"
+      ],
+      "photos": [
+        "recon_01.jpg"
+      ],
+      "status": "VERIFIED",
+      "incident_draft_id": "INC_DRAFT017",
+      "created_at": "2026-09-19T17:30:13.342607+00:00"
+    },
+    {
+      "id": "FR018",
+      "type": "ROAD_BLOCKAGE",
+      "reporter": "USR-NER-DIST-001",
+      "location": {
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "severity": "CRITICAL",
+      "description": "Massive 200m mudslide across NH-27 near Harangajao gorge.",
+      "evidence": [
+        "recon_01.jpg"
+      ],
+      "photos": [
+        "recon_01.jpg"
+      ],
+      "status": "VERIFIED",
+      "incident_draft_id": "INC_DRAFT018",
+      "created_at": "2026-09-19T18:17:24.839220+00:00"
+    },
+    {
+      "id": "FR019",
+      "type": "ROAD_BLOCKAGE",
+      "reporter": "USR-NER-DIST-001",
+      "location": {
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "severity": "CRITICAL",
+      "description": "Massive 200m mudslide across NH-27 near Harangajao gorge.",
+      "evidence": [
+        "recon_01.jpg"
+      ],
+      "photos": [
+        "recon_01.jpg"
+      ],
+      "status": "VERIFIED",
+      "incident_draft_id": "INC_DRAFT019",
+      "created_at": "2026-09-20T12:30:48.102071+00:00"
+    }
+  ],
+  "alerts": [
+    {
+      "id": "ALT-001",
+      "type": "ROUTE_BLOCKED",
+      "severity": "CRITICAL",
+      "status": "ACTIVE",
+      "title": "NH-27 Landslide Blockage",
+      "message": "Landslide on NH-27 has blocked primary corridor for convoy MS-017.",
+      "related_mission_id": "MS-017",
+      "location": "Dima Hasao, Assam",
+      "time_ago": "2 min ago",
+      "acknowledged": false,
+      "created_at": "2026-09-18T17:35:19.794178+00:00"
+    },
+    {
+      "id": "ALT-002",
+      "type": "SHELTER_OVERFLOW",
+      "severity": "HIGH",
+      "status": "ACTIVE",
+      "title": "Tura Shelter Near Capacity",
+      "message": "Increased inflow due to flooding in West Garo Hills. Capacity reached 73%.",
+      "related_mission_id": null,
+      "location": "Tura, Meghalaya",
+      "time_ago": "15 min ago",
+      "acknowledged": false,
+      "created_at": "2026-09-18T17:35:19.794178+00:00"
+    },
+    {
+      "id": "ALT-003",
+      "type": "LOW_STOCK",
+      "severity": "HIGH",
+      "status": "ACTIVE",
+      "title": "Low Fuel Reserve Alert in Aizawl",
+      "message": "Aizawl Generator Depot diesel reserve dropped below 800 L buffer threshold.",
+      "related_mission_id": "MS-042",
+      "location": "Aizawl, Mizoram",
+      "time_ago": "28 min ago",
+      "acknowledged": false,
+      "created_at": "2026-09-18T17:35:19.794178+00:00"
+    },
+    {
+      "id": "ALT-004",
+      "type": "WEATHER_WARNING",
+      "severity": "MEDIUM",
+      "status": "ACTIVE",
+      "title": "Heavy Rainfall Warning",
+      "message": "IMD forecast predicts 140mm rainfall in upper Assam and Meghalaya in next 24h.",
+      "related_mission_id": null,
+      "location": "Upper Assam",
+      "time_ago": "1 hour ago",
+      "acknowledged": false,
+      "created_at": "2026-09-18T17:35:19.794178+00:00"
+    },
+    {
+      "id": "ALT-005",
+      "type": "RELOCATION_ALERT",
+      "severity": "HIGH",
+      "status": "ACTIVE",
+      "title": "Rengma Habitation Evacuation Staged",
+      "message": "5,200 residents in flood zone require relocation confirmation to Maibong shelter.",
+      "related_mission_id": "RM001",
+      "location": "Rengma Village, Assam",
+      "time_ago": "1 hour ago",
+      "acknowledged": false,
+      "created_at": "2026-09-18T17:35:19.794178+00:00"
+    }
+  ],
+  "shelters": [
+    {
+      "id": "SH01",
+      "shelter_id": "SH01",
+      "name": "Haflong Multipurpose Relief Center",
+      "capacity": 1200,
+      "occupancy": 820,
+      "remaining_capacity": 380,
+      "safety_score": 88,
+      "accessibility_score": 92,
+      "readiness": "READY",
+      "status": "OPEN",
+      "location_name": "Haflong, Dima Hasao",
+      "services": [
+        "MEDICAL",
+        "WATER",
+        "FOOD",
+        "SANITATION",
+        "BEDS"
+      ],
+      "coordinates": {
+        "lat": 25.185,
+        "lng": 93.025
+      }
+    },
+    {
+      "id": "SH02",
+      "shelter_id": "SH02",
+      "name": "Tura Community Evacuation Sanctuary",
+      "capacity": 1500,
+      "occupancy": 1100,
+      "remaining_capacity": 400,
+      "safety_score": 84,
+      "accessibility_score": 86,
+      "readiness": "READY",
+      "status": "OPEN",
+      "location_name": "Tura, West Garo Hills",
+      "services": [
+        "MEDICAL",
+        "WATER",
+        "FOOD",
+        "SANITATION"
+      ],
+      "coordinates": {
+        "lat": 25.52,
+        "lng": 90.22
+      }
+    },
+    {
+      "id": "SH03",
+      "shelter_id": "SH03",
+      "name": "Maibong Higher Secondary Safe Haven",
+      "capacity": 800,
+      "occupancy": 320,
+      "remaining_capacity": 480,
+      "safety_score": 90,
+      "accessibility_score": 88,
+      "readiness": "READY",
+      "status": "OPEN",
+      "location_name": "Maibong, Dima Hasao",
+      "services": [
+        "WATER",
+        "FOOD",
+        "BEDS"
+      ],
+      "coordinates": {
+        "lat": 25.3,
+        "lng": 93.16
+      }
+    },
+    {
+      "id": "SH04",
+      "shelter_id": "SH04",
+      "name": "Silchar Indoor Stadium Relief Hub",
+      "capacity": 2500,
+      "occupancy": 1400,
+      "remaining_capacity": 1100,
+      "safety_score": 94,
+      "accessibility_score": 96,
+      "readiness": "READY",
+      "status": "OPEN",
+      "location_name": "Silchar, Cachar",
+      "services": [
+        "MEDICAL",
+        "WATER",
+        "FOOD",
+        "POWER",
+        "SANITATION"
+      ],
+      "coordinates": {
+        "lat": 24.83,
+        "lng": 92.78
+      }
+    },
+    {
+      "id": "SH05",
+      "shelter_id": "SH05",
+      "name": "Aizawl Central Relief Sanctuary",
+      "capacity": 1000,
+      "occupancy": 450,
+      "remaining_capacity": 550,
+      "safety_score": 86,
+      "accessibility_score": 80,
+      "readiness": "READY",
+      "status": "OPEN",
+      "location_name": "Aizawl, Mizoram",
+      "services": [
+        "WATER",
+        "FOOD",
+        "SANITATION"
+      ],
+      "coordinates": {
+        "lat": 23.73,
+        "lng": 92.72
+      }
+    }
+  ],
+  "facilities": [
+    {
+      "id": "FAC01",
+      "name": "PHC Harangajao",
+      "type": "HOSPITAL",
+      "state_id": "AS",
+      "district_id": "D01",
+      "coordinates": {
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "operational": true,
+      "capacity": 80,
+      "current_load": 65,
+      "water": "AVAILABLE",
+      "medical_stock": "LOW",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "FAC10",
+      "name": "Shelter A (Haflong Multipurpose)",
+      "type": "SHELTER",
+      "state_id": "AS",
+      "district_id": "D01",
+      "coordinates": {
+        "lat": 25.4,
+        "lng": 93.2
+      },
+      "operational": true,
+      "capacity": 500,
+      "current_load": 320,
+      "water": "AVAILABLE",
+      "medical_stock": "LOW",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "FAC04",
+      "name": "Civil Hospital Haflong",
+      "type": "HOSPITAL",
+      "state_id": "AS",
+      "district_id": "D01",
+      "coordinates": {
+        "lat": 25.18,
+        "lng": 93.02
+      },
+      "operational": true,
+      "capacity": 200,
+      "current_load": 140,
+      "water": "AVAILABLE",
+      "medical_stock": "ADEQUATE",
+      "status": "ACTIVE"
+    }
+  ],
+  "fleet": [
+    {
+      "id": "VH017",
+      "vehicle_id": "VH017",
+      "callsign": "BRAHMAPUTRA-TACTICAL-01",
+      "type": "TRUCK",
+      "vehicle_type": "4X4_HIGH_CLEARANCE_HEAVY",
+      "status": "AVAILABLE",
+      "capacity": 5000,
+      "terrain_capability": "HIGH",
+      "coordinates": {
+        "lat": 25.22,
+        "lng": 93.06
+      },
+      "speed": 34.5,
+      "heading": 135.0,
+      "current_mission_id": "MIS001",
+      "last_seen": "2026-09-20T12:30:48.142529+00:00",
+      "assigned_driver": "Havildar B. Gogoi",
+      "current_location": {
+        "lat": 25.22,
+        "lng": 93.06
+      }
+    },
+    {
+      "id": "VH018",
+      "vehicle_id": "VH018",
+      "callsign": "MEGHALAYA-OFFROAD-02",
+      "type": "4X4_LIGHT",
+      "vehicle_type": "4X4_LIGHT",
+      "status": "AVAILABLE",
+      "capacity": 1500,
+      "terrain_capability": "VERY_HIGH",
+      "coordinates": {
+        "lat": 25.18,
+        "lng": 93.03
+      },
+      "speed": 0,
+      "heading": 0,
+      "current_mission_id": null,
+      "last_seen": "2026-09-18T17:35:19.794178+00:00",
+      "assigned_driver": "Sub-Inspector T. Sangma"
+    },
+    {
+      "id": "VH020",
+      "vehicle_id": "VH020",
+      "callsign": "CONVOY-BUS-01",
+      "type": "BUS",
+      "vehicle_type": "HEAVY_PASSENGER_BUS",
+      "status": "AVAILABLE",
+      "capacity": 50,
+      "terrain_capability": "STANDARD",
+      "coordinates": {
+        "lat": 25.18,
+        "lng": 93.02
+      },
+      "speed": 0,
+      "heading": 0,
+      "current_mission_id": null,
+      "last_seen": "2026-09-18T17:35:19.794178+00:00",
+      "assigned_driver": "Naik R. Debbarma"
+    },
+    {
+      "id": "VH021",
+      "vehicle_id": "VH021",
+      "callsign": "CONVOY-BUS-02",
+      "type": "BUS",
+      "vehicle_type": "HEAVY_PASSENGER_BUS",
+      "status": "AVAILABLE",
+      "capacity": 50,
+      "terrain_capability": "STANDARD",
+      "coordinates": {
+        "lat": 25.18,
+        "lng": 93.02
+      },
+      "speed": 0,
+      "heading": 0,
+      "current_mission_id": null,
+      "last_seen": "2026-09-18T17:35:19.794178+00:00",
+      "assigned_driver": "Naik L. Ao"
+    },
+    {
+      "id": "VEH-NER-4X4-01",
+      "vehicle_id": "VEH-NER-4X4-01",
+      "callsign": "BRAHMAPUTRA-TACTICAL-01",
+      "type": "TRUCK",
+      "vehicle_type": "4X4_HIGH_CLEARANCE_HEAVY",
+      "status": "AVAILABLE",
+      "capacity": 5000,
+      "terrain_capability": "HIGH",
+      "coordinates": {
+        "lat": 25.44,
+        "lng": 93.21
+      },
+      "speed": 32,
+      "heading": 140,
+      "current_mission_id": "MIS001",
+      "last_seen": "2026-09-18T17:35:19.794178+00:00"
+    }
+  ],
+  "warehouses": [
+    {
+      "id": "WH01",
+      "name": "Guwahati Central Strategic Hub",
+      "location_name": "Guwahati, Assam",
+      "coordinates": {
+        "lat": 26.14,
+        "lng": 91.73
+      },
+      "capacity": 50000,
+      "used_capacity": 42500,
+      "utilization": 85,
+      "status": "OPERATIONAL",
+      "available_stock_types": 5,
+      "inventory": [
+        "INV01",
+        "INV02",
+        "INV03"
+      ],
+      "dispatches": [
+        "DSP001"
+      ]
+    },
+    {
+      "id": "WH02",
+      "name": "Dima Hasao Regional Depot",
+      "location_name": "Haflong, Dima Hasao",
+      "coordinates": {
+        "lat": 25.185,
+        "lng": 93.025
+      },
+      "capacity": 15000,
+      "used_capacity": 9300,
+      "utilization": 62,
+      "status": "OPERATIONAL",
+      "available_stock_types": 5,
+      "inventory": [
+        "INV01",
+        "INV02"
+      ],
+      "dispatches": [
+        "DSP001"
+      ]
+    },
+    {
+      "id": "WH03",
+      "name": "Silchar Valley Strategic Reserve",
+      "location_name": "Silchar, Cachar",
+      "coordinates": {
+        "lat": 24.833,
+        "lng": 92.778
+      },
+      "capacity": 25000,
+      "used_capacity": 12000,
+      "utilization": 48,
+      "status": "OPERATIONAL",
+      "available_stock_types": 5,
+      "inventory": [
+        "INV04",
+        "INV05"
+      ],
+      "dispatches": []
+    },
+    {
+      "id": "WH04",
+      "name": "Aizawl Forward Staging Depot",
+      "location_name": "Aizawl, Mizoram",
+      "coordinates": {
+        "lat": 23.73,
+        "lng": 92.72
+      },
+      "capacity": 10000,
+      "used_capacity": 4000,
+      "utilization": 40,
+      "status": "OPERATIONAL",
+      "available_stock_types": 5,
+      "inventory": [
+        "INV04"
+      ],
+      "dispatches": []
+    },
+    {
+      "id": "WH05",
+      "name": "Itanagar High-Altitude Depot",
+      "location_name": "Itanagar, Arunachal Pradesh",
+      "coordinates": {
+        "lat": 27.08,
+        "lng": 93.6
+      },
+      "capacity": 8000,
+      "used_capacity": 2800,
+      "utilization": 35,
+      "status": "OPERATIONAL",
+      "available_stock_types": 5,
+      "inventory": [
+        "INV01"
+      ],
+      "dispatches": []
+    },
+    {
+      "id": "WH06",
+      "name": "Kohima Tactical Logistics Store",
+      "location_name": "Kohima, Nagaland",
+      "coordinates": {
+        "lat": 25.67,
+        "lng": 94.11
+      },
+      "capacity": 7000,
+      "used_capacity": 1960,
+      "utilization": 28,
+      "status": "OPERATIONAL",
+      "available_stock_types": 5,
+      "inventory": [
+        "INV03"
+      ],
+      "dispatches": []
+    }
+  ],
+  "relocation_cases": [
+    {
+      "id": "REL001",
+      "habitation_id": "HAB001",
+      "population": 5200,
+      "risk_score": 91,
+      "serviceability_score": 22,
+      "relocation_required": true,
+      "status": "ASSESSMENT",
+      "trigger_incident_id": "INC001",
+      "created_at": "2026-09-18T17:35:19.794178+00:00"
+    }
+  ],
+  "relocation_missions": [
+    {
+      "id": "RM001",
+      "case_id": "REL001",
+      "destination_id": "SHELTER01",
+      "status": "IN_TRANSIT",
+      "population_planned": 5200,
+      "vehicles": [
+        "VH020",
+        "VH021"
+      ],
+      "progress": 48,
+      "destination": {
+        "id": "SHELTER01",
+        "name": "Haflong Government College Safe Haven"
+      },
+      "approved_by": "USR002",
+      "started_at": "2026-09-18T17:35:19.794178+00:00",
+      "created_at": "2026-09-18T17:35:19.794178+00:00"
+    }
+  ],
+  "approvals_queue": [
+    {
+      "type": "MISSION",
+      "id": "MIS001",
+      "priority": "CRITICAL",
+      "title": "Emergency Medical Supply to Harangajao",
+      "created_at": "2026-09-18T17:35:19.794178+00:00"
+    },
+    {
+      "type": "REPLAN",
+      "id": "RP001",
+      "priority": "HIGH",
+      "title": "Bypass Rerouting via BRO Mahur Corridor",
+      "created_at": "2026-09-18T17:35:19.794178+00:00"
+    }
+  ],
+  "approvals_history": [
+    {
+      "type": "MISSION",
+      "id": "MIS001",
+      "decision": "APPROVED",
+      "by": "USR002",
+      "reason": "Reviewed operational evidence",
+      "timestamp": "2026-09-18T17:35:19.794178+00:00"
+    }
+  ],
+  "generated_reports": [],
+  "audit_logs": [
+    {
+      "id": "AUD001",
+      "user_id": "USR009",
+      "action": "MISSION_APPROVED",
+      "resource": "MIS001",
+      "previous_state": "PENDING",
+      "new_state": "APPROVED",
+      "reason": "Critical medical supply",
+      "actor": {
+        "id": "USR009",
+        "name": "District Magistrate",
+        "role": "DISTRICT_AUTHORITY"
+      },
+      "timestamp": "2026-09-18T17:35:19.794178+00:00"
+    }
+  ],
+  "priority_rules": {
+    "version": "v3",
+    "factors": [
+      {
+        "name": "hazard",
+        "weight": 0.3
+      },
+      {
+        "name": "population",
+        "weight": 0.25
+      },
+      {
+        "name": "stockout_urgency",
+        "weight": 0.3
+      },
+      {
+        "name": "critical_dependency",
+        "weight": 0.15
+      }
+    ],
+    "activated_at": "2026-09-18T17:35:19.794178+00:00",
+    "updated_by": "ADMIN001"
+  },
+  "priority_actions": [
+    {
+      "id": "ACT03",
+      "type": "ALLOCATE",
+      "severity": "MEDIUM",
+      "title": "Reallocate fuel to Aizawl",
+      "subtitle": "Low stock alert (800 L remaining)",
+      "time_ago": "28 min ago",
+      "action_type": "allocate_resource",
+      "target_id": "WH04",
+      "button_text": "Allocate"
+    },
+    {
+      "id": "ACT05",
+      "type": "CONFIRM",
+      "severity": "SUCCESS",
+      "title": "Confirm relocation readiness",
+      "subtitle": "Rengma Village, Assam (5,200 people)",
+      "time_ago": "1 hour ago",
+      "action_type": "confirm_relocation",
+      "target_id": "REL001",
+      "button_text": "Review"
+    },
+    {
+      "id": "ACT07",
+      "type": "DISPATCH",
+      "severity": "HIGH",
+      "title": "Dispatch backup power generators to Sonitpur",
+      "subtitle": "Relief camp power outage alert",
+      "time_ago": "2 hours ago",
+      "action_type": "allocate_resource",
+      "target_id": "WH01",
+      "button_text": "Dispatch"
+    }
+  ],
+  "sync_events": [],
+  "sync_conflicts": [
+    {
+      "id": "CON001",
+      "entity": "INC001",
+      "local_version": 3,
+      "server_version": 4,
+      "status": "OPEN"
+    }
+  ],
+  "edge_nodes": [
+    {
+      "node_id": "EDGE-AS-D01",
+      "status": "ONLINE",
+      "services": {
+        "database": "RUNNING",
+        "maps": "RUNNING",
+        "routing": "RUNNING",
+        "ai": "RUNNING",
+        "voice": "RUNNING"
+      }
+    }
+  ]
+}

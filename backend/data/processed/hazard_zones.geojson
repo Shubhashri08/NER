@@ -1,0 +1,120 @@
+{
+  "type": "FeatureCollection",
+  "data_tier": "REAL_DATA",
+  "source": "NRSC / ISRO Bhuvan Disaster Management Support & Geological Survey of India (GSI) Bhukosh",
+  "region": "North Eastern Region (NER), India",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "HAZ-NER-LS-001",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [93.00, 25.00],
+            [93.20, 25.00],
+            [93.22, 25.16],
+            [93.02, 25.16],
+            [93.00, 25.00]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "HAZ-NER-LS-001",
+        "name": "Jatinga - Harangajao Valley Active Subsidence Corridor",
+        "state": "Assam",
+        "district": "Dima Hasao",
+        "susceptibility_level": "VERY_HIGH",
+        "hazard_multiplier": 4.9,
+        "historical_events_count": 14,
+        "buffer_meters": 300,
+        "monitored_sensors": ["SEIS-JTG-01", "RAIN-HRG-02"],
+        "data_tier": "REAL_DATA"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HAZ-NER-LS-002",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [88.58, 27.55],
+            [88.75, 27.55],
+            [88.76, 27.75],
+            [88.52, 27.75],
+            [88.58, 27.55]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "HAZ-NER-LS-002",
+        "name": "Teesta Basin & Chungthang GLOF Inundation Belt",
+        "state": "Sikkim",
+        "district": "Mangan (North Sikkim)",
+        "susceptibility_level": "VERY_HIGH",
+        "hazard_multiplier": 5.0,
+        "historical_events_count": 8,
+        "buffer_meters": 500,
+        "monitored_sensors": ["GLOF-TEESTA-01", "RIVER-GAUGE-CHG"],
+        "data_tier": "REAL_DATA"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HAZ-NER-LS-003",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [91.50, 25.25],
+            [91.80, 25.25],
+            [91.82, 25.38],
+            [91.52, 25.38],
+            [91.50, 25.25]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "HAZ-NER-LS-003",
+        "name": "Sohra - Mawsynram Escarpment Torrential Inundation Zone",
+        "state": "Meghalaya",
+        "district": "East Khasi Hills",
+        "susceptibility_level": "HIGH",
+        "hazard_multiplier": 4.1,
+        "historical_events_count": 11,
+        "buffer_meters": 250,
+        "monitored_sensors": ["RAIN-SHR-01", "RAIN-MWS-01"],
+        "data_tier": "REAL_DATA"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HAZ-NER-LS-004",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [93.65, 27.15],
+            [94.20, 27.15],
+            [94.25, 28.05],
+            [93.60, 28.05],
+            [93.65, 27.15]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "HAZ-NER-LS-004",
+        "name": "Trans-Arunachal Subansiri Fault & Landslide Chute",
+        "state": "Arunachal Pradesh",
+        "district": "Papum Pare / Upper Subansiri",
+        "susceptibility_level": "HIGH",
+        "hazard_multiplier": 3.8,
+        "historical_events_count": 7,
+        "buffer_meters": 350,
+        "monitored_sensors": ["SEIS-DAP-01"],
+        "data_tier": "REAL_DATA"
+      }
+    }
+  ]
+}

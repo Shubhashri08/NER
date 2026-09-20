@@ -1,0 +1,77 @@
+{
+  "data_tier": "SYNTHETIC_DATA",
+  "region": "North Eastern Region (NER), India",
+  "generated_at": "2026-09-13T06:00:00.000Z",
+  "description": "Prepositioned disaster relief warehouses across North Eastern Region strategic hubs",
+  "warehouses": [
+    {
+      "warehouse_id": "WH-NER-SILCHAR",
+      "name": "Silchar Central Transshipment Depot (Barak Valley)",
+      "state": "Assam",
+      "location_node": "NODE-SILCHAR",
+      "coordinates": { "lat": 24.8333, "lng": 92.7926 },
+      "total_area_sqm": 6500,
+      "stock": [
+        { "sku": "WATER_1L_PACK", "name": "Bottled Drinking Water (1L Pack of 12)", "quantity": 35000, "reserved": 5200, "available": 29800, "weight_per_unit_kg": 12.0, "unit": "BOX" },
+        { "sku": "RTE_MEAL_PACK", "name": "Ready-to-Eat High-Calorie Ration Pack", "quantity": 42000, "reserved": 7500, "available": 34500, "weight_per_unit_kg": 2.5, "unit": "PACK" },
+        { "sku": "MED_TRAUMA_KIT", "name": "Emergency Trauma Dressing & Anti-Venom Kit", "quantity": 3200, "reserved": 450, "available": 2750, "weight_per_unit_kg": 1.1, "unit": "KIT" },
+        { "sku": "TENT_FAMILY_4P", "name": "Heavy-Duty Monsoon Relief Shelter Tent", "quantity": 1800, "reserved": 250, "available": 1550, "weight_per_unit_kg": 16.0, "unit": "UNIT" },
+        { "sku": "WATER_PURIF_TAB", "name": "Chlorine Water Purification Tablets (Box of 500)", "quantity": 8000, "reserved": 1200, "available": 6800, "weight_per_unit_kg": 0.3, "unit": "BOX" }
+      ]
+    },
+    {
+      "warehouse_id": "WH-NER-HAFLONG",
+      "name": "Haflong Hill Forward Staging Point",
+      "state": "Assam",
+      "location_node": "NODE-HAFLONG",
+      "coordinates": { "lat": 25.1832, "lng": 93.0254 },
+      "total_area_sqm": 2200,
+      "stock": [
+        { "sku": "WATER_1L_PACK", "name": "Bottled Drinking Water (1L Pack of 12)", "quantity": 8500, "reserved": 3100, "available": 5400, "weight_per_unit_kg": 12.0, "unit": "BOX" },
+        { "sku": "RTE_MEAL_PACK", "name": "Ready-to-Eat High-Calorie Ration Pack", "quantity": 14000, "reserved": 4200, "available": 9800, "weight_per_unit_kg": 2.5, "unit": "PACK" },
+        { "sku": "MED_TRAUMA_KIT", "name": "Emergency Trauma Dressing & Anti-Venom Kit", "quantity": 780, "reserved": 320, "available": 460, "weight_per_unit_kg": 1.1, "unit": "KIT" },
+        { "sku": "TENT_FAMILY_4P", "name": "Heavy-Duty Monsoon Relief Shelter Tent", "quantity": 450, "reserved": 180, "available": 270, "weight_per_unit_kg": 16.0, "unit": "UNIT" }
+      ]
+    },
+    {
+      "warehouse_id": "WH-NER-MANGAN",
+      "name": "Mangan Forward Alpine Relief Depot",
+      "state": "Sikkim",
+      "location_node": "NODE-MANGAN",
+      "coordinates": { "lat": 27.5050, "lng": 88.5286 },
+      "total_area_sqm": 1600,
+      "stock": [
+        { "sku": "WATER_1L_PACK", "name": "Bottled Drinking Water (1L Pack of 12)", "quantity": 4200, "reserved": 3400, "available": 800, "weight_per_unit_kg": 12.0, "unit": "BOX" },
+        { "sku": "RTE_MEAL_PACK", "name": "Ready-to-Eat High-Calorie Ration Pack", "quantity": 8900, "reserved": 7200, "available": 1700, "weight_per_unit_kg": 2.5, "unit": "PACK" },
+        { "sku": "MED_TRAUMA_KIT", "name": "High-Altitude Trauma & Hypothermia Kits", "quantity": 380, "reserved": 290, "available": 90, "weight_per_unit_kg": 1.2, "unit": "KIT" },
+        { "sku": "OXYGEN_CYL_10L", "name": "Portable Alpine Oxygen (10L)", "quantity": 120, "reserved": 95, "available": 25, "weight_per_unit_kg": 11.2, "unit": "CYLINDER" }
+      ]
+    },
+    {
+      "warehouse_id": "WH-NER-SHILLONG",
+      "name": "Shillong Civil Defense Base Depot",
+      "state": "Meghalaya",
+      "location_node": "NODE-SHILLONG",
+      "coordinates": { "lat": 25.5689, "lng": 91.8833 },
+      "total_area_sqm": 3500,
+      "stock": [
+        { "sku": "WATER_1L_PACK", "name": "Bottled Drinking Water (1L Pack of 12)", "quantity": 18000, "reserved": 2500, "available": 15500, "weight_per_unit_kg": 12.0, "unit": "BOX" },
+        { "sku": "RTE_MEAL_PACK", "name": "Ready-to-Eat High-Calorie Ration Pack", "quantity": 25000, "reserved": 3800, "available": 21200, "weight_per_unit_kg": 2.5, "unit": "PACK" },
+        { "sku": "MED_TRAUMA_KIT", "name": "Emergency Trauma Dressing & IV Kit", "quantity": 1500, "reserved": 220, "available": 1280, "weight_per_unit_kg": 0.9, "unit": "KIT" }
+      ]
+    },
+    {
+      "warehouse_id": "WH-NER-ITANAGAR",
+      "name": "Itanagar Capital Central Depot",
+      "state": "Arunachal Pradesh",
+      "location_node": "NODE-ITANAGAR",
+      "coordinates": { "lat": 27.0844, "lng": 93.6166 },
+      "total_area_sqm": 3000,
+      "stock": [
+        { "sku": "WATER_1L_PACK", "name": "Bottled Drinking Water (1L Pack of 12)", "quantity": 12000, "reserved": 1900, "available": 10100, "weight_per_unit_kg": 12.0, "unit": "BOX" },
+        { "sku": "RTE_MEAL_PACK", "name": "Ready-to-Eat High-Calorie Ration Pack", "quantity": 19500, "reserved": 2800, "available": 16700, "weight_per_unit_kg": 2.5, "unit": "PACK" },
+        { "sku": "MED_TRAUMA_KIT", "name": "Emergency Trauma Dressing Kit", "quantity": 950, "reserved": 150, "available": 800, "weight_per_unit_kg": 0.9, "unit": "KIT" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-dark: #070c0e;
+    --cream: #e6dfce;
+    --gold: #d8b56a;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e6dfce;
+  font-family: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #101416;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Specific typography for verbatim match */
+.font-serif {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-mono {
+  font-family: 'DM Mono', monospace;
+}
+
+/* Dotted orbital ring */
+.hero-orbit {
+  position: absolute;
+  border: 1px dashed rgba(216, 181, 106, 0.45);
+  border-radius: 50%;
+  pointer-events: none;
+}

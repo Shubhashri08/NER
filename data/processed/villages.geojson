@@ -1,0 +1,366 @@
+{
+  "type": "FeatureCollection",
+  "data_tier": "REAL_DATA",
+  "region": "North Eastern Region (NER), India",
+  "source": "Census of India Primary Census Abstract (PCA) 2011 & Local Government Directory (LGD)",
+  "states_covered": ["Assam", "Arunachal Pradesh", "Manipur", "Meghalaya", "Mizoram", "Nagaland", "Sikkim", "Tripura"],
+  "features": [
+    {
+      "type": "Feature",
+      "id": "LOC-NER-ASM-001",
+      "geometry": { "type": "Point", "coordinates": [93.0254, 25.1832] },
+      "properties": {
+        "location_id": "LOC-NER-ASM-001",
+        "village_name": "Haflong Urban HQ",
+        "state": "Assam",
+        "district": "Dima Hasao",
+        "census_2011_code": "298205",
+        "population": 3680,
+        "households": 790,
+        "children_under_6": 440,
+        "elderly_above_60": 310,
+        "vulnerability_index": 0.86,
+        "elevation_m": 450,
+        "baseline_days_isolated": 4,
+        "terrain_type": "Severed River Gorge Valley",
+        "data_tier": "REAL_DATA"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LOC-NER-ASM-004",
+      "geometry": { "type": "Point", "coordinates": [92.7926, 24.8333] },
+      "properties": {
+        "location_id": "LOC-NER-ASM-004",
+        "village_name": "Silchar Transshipment Hub",
+        "state": "Assam",
+        "district": "Cachar",
+        "census_2011_code": "299001",
+        "population": 172830,
+        "households": 38400,
+        "children_under_6": 15800,
+        "elderly_above_60": 14200,
+        "vulnerability_index": 0.28,
+        "elevation_m": 22,
+        "baseline_days_isolated": 0,
+        "terrain_type": "Barak Valley Floodplain Staging Base",
+        "data_tier": "REAL_DATA"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LOC-NER-SKM-001",
+      "geometry": { "type": "Point", "coordinates": [88.5286, 27.5050] },
+      "properties": {
+        "location_id": "LOC-NER-SKM-001",
+        "village_name": "Mangan Alpine Base",
+        "state": "Sikkim",
+        "district": "North Sikkim",
+        "census_2011_code": "260801",
+        "population": 4644,
+        "households": 1050,
+        "children_under_6": 490,
+        "elderly_above_60": 380,
+        "vulnerability_index": 0.62,
+        "elevation_m": 1310,
+        "baseline_days_isolated": 1,
+        "terrain_type": "High Relief Himalayan Terraces",
+        "data_tier": "REAL_DATA"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LOC-NER-SKM-002",
+      "geometry": { "type": "Point", "coordinates": [88.6472, 27.6039] },
+      "properties": {
+        "location_id": "LOC-NER-SKM-002",
+        "village_name": "Chungthang Junction",
+        "state": "Sikkim",
+        "district": "North Sikkim",
+        "census_2011_code": "260822",
+        "population": 3950,
+        "households": 820,
+        "children_under_6": 380,
+        "elderly_above_60": 290,
+        "vulnerability_index": 0.91,
+        "elevation_m": 1790,
+        "baseline_days_isolated": 5,
+        "terrain_type": "Confluence GLOF High-Risk Basin",
+        "data_tier": "REAL_DATA"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LOC-NER-SKM-003",
+      "geometry": { "type": "Point", "coordinates": [88.5583, 27.7289] },
+      "properties": {
+        "location_id": "LOC-NER-SKM-003",
+        "village_name": "Lachen Forward Valley",
+        "state": "Sikkim",
+        "district": "North Sikkim",
+        "census_2011_code": "260845",
+        "population": 1325,
+        "households": 310,
+        "children_under_6": 120,
+        "elderly_above_60": 140,
+        "vulnerability_index": 0.88,
+        "elevation_m": 2750,
+        "baseline_days_isolated": 6,
+        "terrain_type": "Alpine Glacial Valley",
+        "data_tier": "REAL_DATA"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LOC-NER-MEG-001",
+      "geometry": { "type": "Point", "coordinates": [91.8833, 25.5689] },
+      "properties": {
+        "location_id": "LOC-NER-MEG-001",
+        "village_name": "Shillong Civil Defense Base",
+        "state": "Meghalaya",
+        "district": "East Khasi Hills",
+        "census_2011_code": "277101",
+        "population": 143229,
+        "households": 31200,
+        "children_under_6": 14500,
+        "elderly_above_60": 11800,
+        "vulnerability_index": 0.25,
+        "elevation_m": 1496,
+        "baseline_days_isolated": 0,
+        "terrain_type": "Plateau Capital Reserve Hub",
+        "data_tier": "REAL_DATA"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LOC-NER-MEG-002",
+      "geometry": { "type": "Point", "coordinates": [91.7300, 25.2800] },
+      "properties": {
+        "location_id": "LOC-NER-MEG-002",
+        "village_name": "Sohra (Cherrapunji)",
+        "state": "Meghalaya",
+        "district": "East Khasi Hills",
+        "census_2011_code": "277320",
+        "population": 11772,
+        "households": 2480,
+        "children_under_6": 1420,
+        "elderly_above_60": 980,
+        "vulnerability_index": 0.74,
+        "elevation_m": 1430,
+        "baseline_days_isolated": 2,
+        "terrain_type": "Extreme Precipitation Escarpment",
+        "data_tier": "REAL_DATA"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LOC-NER-ARU-001",
+      "geometry": { "type": "Point", "coordinates": [93.6166, 27.0844] },
+      "properties": {
+        "location_id": "LOC-NER-ARU-001",
+        "village_name": "Itanagar Base Depot",
+        "state": "Arunachal Pradesh",
+        "district": "Papum Pare",
+        "census_2011_code": "261101",
+        "population": 59490,
+        "households": 12800,
+        "children_under_6": 6200,
+        "elderly_above_60": 4100,
+        "vulnerability_index": 0.22,
+        "elevation_m": 320,
+        "baseline_days_isolated": 0,
+        "terrain_type": "Foothills Capital & Logistics Depot",
+        "data_tier": "REAL_DATA"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LOC-NER-ARU-002",
+      "geometry": { "type": "Point", "coordinates": [93.7500, 27.2000] },
+      "properties": {
+        "location_id": "LOC-NER-ARU-002",
+        "village_name": "Sagalee Outpost",
+        "state": "Arunachal Pradesh",
+        "district": "Papum Pare",
+        "census_2011_code": "261150",
+        "population": 2185,
+        "households": 460,
+        "children_under_6": 290,
+        "elderly_above_60": 190,
+        "vulnerability_index": 0.65,
+        "elevation_m": 480,
+        "baseline_days_isolated": 2,
+        "terrain_type": "Steep Hillside River Gorge",
+        "data_tier": "REAL_DATA"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LOC-NER-MNP-001",
+      "geometry": { "type": "Point", "coordinates": [93.9368, 24.8170] },
+      "properties": {
+        "location_id": "LOC-NER-MNP-001",
+        "village_name": "Imphal Central Supply Depot",
+        "state": "Manipur",
+        "district": "Imphal West",
+        "census_2011_code": "269101",
+        "population": 268243,
+        "households": 56200,
+        "children_under_6": 28400,
+        "elderly_above_60": 24500,
+        "vulnerability_index": 0.32,
+        "elevation_m": 786,
+        "baseline_days_isolated": 0,
+        "terrain_type": "Intermontane Valley Central Staging",
+        "data_tier": "REAL_DATA"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LOC-NER-MNP-002",
+      "geometry": { "type": "Point", "coordinates": [93.4980, 24.8960] },
+      "properties": {
+        "location_id": "LOC-NER-MNP-002",
+        "village_name": "Noney (Tupul Slide Zone)",
+        "state": "Manipur",
+        "district": "Noney",
+        "census_2011_code": "269340",
+        "population": 3850,
+        "households": 720,
+        "children_under_6": 420,
+        "elderly_above_60": 310,
+        "vulnerability_index": 0.89,
+        "elevation_m": 620,
+        "baseline_days_isolated": 5,
+        "terrain_type": "Ijei River Extreme Landslide Cut (NH-37)",
+        "data_tier": "REAL_DATA"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LOC-NER-MIZ-001",
+      "geometry": { "type": "Point", "coordinates": [92.7176, 23.7271] },
+      "properties": {
+        "location_id": "LOC-NER-MIZ-001",
+        "village_name": "Aizawl Strategic Staging Depot",
+        "state": "Mizoram",
+        "district": "Aizawl",
+        "census_2011_code": "271101",
+        "population": 293416,
+        "households": 61500,
+        "children_under_6": 32100,
+        "elderly_above_60": 26400,
+        "vulnerability_index": 0.38,
+        "elevation_m": 1132,
+        "baseline_days_isolated": 0,
+        "terrain_type": "High Linear Ridge Capital Hub",
+        "data_tier": "REAL_DATA"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LOC-NER-MIZ-002",
+      "geometry": { "type": "Point", "coordinates": [92.6780, 24.2180] },
+      "properties": {
+        "location_id": "LOC-NER-MIZ-002",
+        "village_name": "Kolasib Arterial Lifeline Pass",
+        "state": "Mizoram",
+        "district": "Kolasib",
+        "census_2011_code": "271250",
+        "population": 24272,
+        "households": 5100,
+        "children_under_6": 2800,
+        "elderly_above_60": 1950,
+        "vulnerability_index": 0.78,
+        "elevation_m": 680,
+        "baseline_days_isolated": 3,
+        "terrain_type": "NH-306 Sole Mountain Lifeline Corridor",
+        "data_tier": "REAL_DATA"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LOC-NER-NLD-001",
+      "geometry": { "type": "Point", "coordinates": [94.1086, 25.6701] },
+      "properties": {
+        "location_id": "LOC-NER-NLD-001",
+        "village_name": "Kohima Civil Protection Depot",
+        "state": "Nagaland",
+        "district": "Kohima",
+        "census_2011_code": "267101",
+        "population": 99039,
+        "households": 21300,
+        "children_under_6": 10800,
+        "elderly_above_60": 8400,
+        "vulnerability_index": 0.36,
+        "elevation_m": 1444,
+        "baseline_days_isolated": 0,
+        "terrain_type": "Ridge Spine Capital Logistics Center",
+        "data_tier": "REAL_DATA"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LOC-NER-NLD-002",
+      "geometry": { "type": "Point", "coordinates": [94.0400, 25.7500] },
+      "properties": {
+        "location_id": "LOC-NER-NLD-002",
+        "village_name": "Phesama Sinking Zone",
+        "state": "Nagaland",
+        "district": "Kohima",
+        "census_2011_code": "267180",
+        "population": 3215,
+        "households": 680,
+        "children_under_6": 390,
+        "elderly_above_60": 280,
+        "vulnerability_index": 0.85,
+        "elevation_m": 1380,
+        "baseline_days_isolated": 4,
+        "terrain_type": "NH-2 Sinking Fault Zone",
+        "data_tier": "REAL_DATA"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LOC-NER-TRP-001",
+      "geometry": { "type": "Point", "coordinates": [91.2868, 23.8315] },
+      "properties": {
+        "location_id": "LOC-NER-TRP-001",
+        "village_name": "Agartala State Reserve Base",
+        "state": "Tripura",
+        "district": "West Tripura",
+        "census_2011_code": "273101",
+        "population": 400004,
+        "households": 92000,
+        "children_under_6": 41000,
+        "elderly_above_60": 36000,
+        "vulnerability_index": 0.24,
+        "elevation_m": 16,
+        "baseline_days_isolated": 0,
+        "terrain_type": "Howrah River Lowland Capital Base",
+        "data_tier": "REAL_DATA"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LOC-NER-TRP-002",
+      "geometry": { "type": "Point", "coordinates": [92.0160, 24.1680] },
+      "properties": {
+        "location_id": "LOC-NER-TRP-002",
+        "village_name": "Dharmanagar Northern Railhead",
+        "state": "Tripura",
+        "district": "North Tripura",
+        "census_2011_code": "273310",
+        "population": 45881,
+        "households": 10400,
+        "children_under_6": 4800,
+        "elderly_above_60": 3900,
+        "vulnerability_index": 0.66,
+        "elevation_m": 21,
+        "baseline_days_isolated": 2,
+        "terrain_type": "NH-08 Churaibari Border Inundation Gateway",
+        "data_tier": "REAL_DATA"
+      }
+    }
+  ]
+}

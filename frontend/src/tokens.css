@@ -1,0 +1,36 @@
+/* Hallmark · pre-emit critique: P4 H4 E4 S4 R4 V4 */
+:root {
+  --font-auth-display: 'Instrument Serif', Georgia, serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-display: 'Manrope', 'Inter', system-ui, sans-serif;
+  --color-paper: #f3f6f7;
+  --color-surface: #ffffff;
+  --color-ink: #172b36;
+  --color-muted: #526774;
+  --color-rule: #d6e1e5;
+  --color-accent: #0c716b;
+  --color-accent-hover: #095b57;
+  --color-accent-soft: #e4f3ef;
+  --color-on-accent: #ffffff;
+  --color-focus: #168d85;
+  --color-dark-paper: #101b24;
+  --color-dark-surface: #162630;
+  --color-dark-raised: #203540;
+  --color-dark-rule: #344b57;
+  --color-dark-ink: #e9f1f3;
+  --color-dark-muted: #a5bac4;
+  --color-auth-paper: #080f13;
+  --color-auth-surface: #101c23;
+  --color-auth-ink: #f4efe5;
+  --color-auth-muted: #b0bdbf;
+  --color-auth-rule: #35434a;
+  --color-auth-accent: #d8b779;
+  --color-auth-tint: #29271f;
+  --color-error: #b33343;
+  --color-error-soft: #fff0f2;
+  --radius-card: 16px;
+  --radius-input: 8px;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2rem;
+}
