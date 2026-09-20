@@ -4,6 +4,10 @@ main = "backend/app/main.py"
 compatibility_date = "2024-09-23"
 compatibility_flags = ["python_workers"]
 
+# Cloudflare Python Workers package declaration
+requirements = "requirements.txt"
+
+
 # Unified Single-Worker: Serve React Frontend directly from the same Worker domain
 [assets]
 directory = "./frontend/dist"
