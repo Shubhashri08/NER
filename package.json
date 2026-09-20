@@ -1,9 +1,0 @@
-{
-  "name": "silver-sniffle",
-  "version": "1.0.0",
-  "private": true,
-  "scripts": {
-    "deploy": "uvx --from workers-py pywrangler deploy",
-    "build": "uvx --from workers-py pywrangler deploy"
-  }
-}

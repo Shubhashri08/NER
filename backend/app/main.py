@@ -90,11 +90,3 @@ def root():
         "docs_url": "/docs",
         "api_v1": api_prefix
     }
-
-# Cloudflare Workers Python ASGI entrypoint
-try:
-    from workers import asgi
-    Default = asgi.entrypoint(app)
-except Exception:
-    pass
-
