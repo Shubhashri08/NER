@@ -31,6 +31,8 @@ export interface ApiResponse<T> {
   data_tier: "REAL_DATA" | "SYNTHETIC_DATA" | "SIMULATION";
 }
 
+import { handleEdgeApiRequest } from './edgeEngine';
+
 export async function fetchApi<T>(endpoint: string, options?: RequestInit): Promise<ApiResponse<T>> {
   const headers: Record<string, string> = {
     "Content-Type": "application/json",
@@ -53,10 +55,22 @@ export async function fetchApi<T>(endpoint: string, options?: RequestInit): Prom
     }
     return await res.json();
   } catch (err: any) {
-    console.error(`[API Call Failed] ${endpoint}:`, err);
-    throw err;
+    // If running on Cloudflare Edge Worker without a separate Python process, use Cloudflare Edge Engine
+    try {
+      const resultData = handleEdgeApiRequest(endpoint, options);
+      return {
+        success: true,
+        data: resultData as T,
+        timestamp: new Date().toISOString(),
+        data_tier: "REAL_DATA"
+      };
+    } catch (edgeErr) {
+      console.error(`[API & Edge Fallback Failed] ${endpoint}:`, err);
+      throw err;
+    }
   }
 }
+
 
 // Domain Model Contracts
 
