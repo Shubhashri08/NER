@@ -1,0 +1,10 @@
+{
+  "name": "silver-sniffle",
+  "version": "1.0.0",
+  "private": true,
+  "description": "NER Disaster Logistics & Response Intelligence Platform - Unified Cloudflare Worker",
+  "scripts": {
+    "build": "npm --prefix frontend install && npm --prefix frontend run build",
+    "deploy": "npm run build && wrangler deploy"
+  }
+}
